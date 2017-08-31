@@ -70,7 +70,7 @@ public class VerbClass {
                     String[] elements = VerbRules[i].substring(6, VerbRules[i].length()).split(" ");
                     for (int j = 0; j< elements.length; j++){
                         if(!elements[j].contains("|") && !elements[j].isEmpty()){
-                            VerbGrammar.get("NEG").add(elements[j]);
+                            VerbGrammar.get("NEG").add(elements[j].replace("\"", ""));
                         }
                     }
                 }
@@ -78,7 +78,7 @@ public class VerbClass {
                     String[] elements = VerbRules[i].substring(6, VerbRules[i].length()).split(" ");
                     for (int j = 0; j< elements.length; j++){
                         if(!elements[j].contains("|") && !elements[j].isEmpty()){
-                            VerbGrammar.get("SC").add(elements[j]);
+                            VerbGrammar.get("SC").add(elements[j].replace("\"", ""));
                         }
                     }
                 }
@@ -86,7 +86,7 @@ public class VerbClass {
                     String[] elements = VerbRules[i].substring(11, VerbRules[i].length()).split(" ");
                     for (int j = 0; j< elements.length; j++){
                         if(!elements[j].contains("|") && !elements[j].isEmpty()){
-                            VerbGrammar.get("ASP").add(elements[j]);
+                            VerbGrammar.get("ASP").add(elements[j].replace("\"", ""));
                         }
                     }
                 }
@@ -94,7 +94,7 @@ public class VerbClass {
                     String[] elements = VerbRules[i].substring(6, VerbRules[i].length()).split(" ");
                     for (int j = 0; j< elements.length; j++){
                         if(!elements[j].contains("|") && !elements[j].isEmpty()){
-                            VerbGrammar.get("MOD").add(elements[j]);
+                            VerbGrammar.get("MOD").add(elements[j].replace("\"", ""));
                         }
                     }
                 }
@@ -102,7 +102,7 @@ public class VerbClass {
                     String[] elements = VerbRules[i].substring(5, VerbRules[i].length()).split(" ");
                     for (int j = 0; j< elements.length; j++){
                         if(!elements[j].contains("|") && !elements[j].isEmpty()){
-                            VerbGrammar.get("OC").add(elements[j]);
+                            VerbGrammar.get("OC").add(elements[j].replace("\"", ""));
                         }
                     }
                 }
@@ -110,7 +110,7 @@ public class VerbClass {
                     String[] elements = VerbRules[i].substring(5, VerbRules[i].length()).split(" ");
                     for (int j = 0; j< elements.length; j++){
                         if(!elements[j].contains("|") && !elements[j].isEmpty()){
-                            VerbGrammar.get("C").add(elements[j]);
+                            VerbGrammar.get("C").add(elements[j].replace("\"", ""));
                         }
                     }
                 }
@@ -118,7 +118,7 @@ public class VerbClass {
                     String[] elements = VerbRules[i].substring(5, VerbRules[i].length()).split(" ");
                     for (int j = 0; j< elements.length; j++){
                         if(!elements[j].contains("|") && !elements[j].isEmpty()){
-                            VerbGrammar.get("A").add(elements[j]);
+                            VerbGrammar.get("A").add(elements[j].replace("\"", ""));
                         }
                     }
                 }
@@ -126,7 +126,7 @@ public class VerbClass {
                     String[] elements = VerbRules[i].substring(5, VerbRules[i].length()).split(" ");
                     for (int j = 0; j< elements.length; j++){
                         if(!elements[j].contains("|") && !elements[j].isEmpty()){
-                            VerbGrammar.get("R").add(elements[j]);
+                            VerbGrammar.get("R").add(elements[j].replace("\"", ""));
                         }
                     }
                 }
@@ -134,7 +134,7 @@ public class VerbClass {
                     String[] elements = VerbRules[i].substring(5, VerbRules[i].length()).split(" ");
                     for (int j = 0; j< elements.length; j++){
                         if(!elements[j].contains("|") && !elements[j].isEmpty()){
-                            VerbGrammar.get("P").add(elements[j]);
+                            VerbGrammar.get("P").add(elements[j].replace("\"", ""));
                         }
                     }
                 }
@@ -142,7 +142,7 @@ public class VerbClass {
                     String[] elements = VerbRules[i].substring(10, VerbRules[i].length()).split(" ");
                     for (int j = 0; j< elements.length; j++){
                         if(!elements[j].contains("|") && !elements[j].isEmpty()){
-                            VerbGrammar.get("VR").add(elements[j]);
+                            VerbGrammar.get("VR").add(elements[j].replace("\"", ""));
                         }
                     }
                 }
@@ -170,34 +170,34 @@ public class VerbClass {
         ArrayList<String> verbSlotHolder = new ArrayList<>();
 
         if(revisedSlots[0] == 1){
-            verbSlotHolder.add(VerbGrammar.get("NEG").get(rand.nextInt(VerbGrammar.get("NEG").size())).replace("\"", ""));
+            verbSlotHolder.add(VerbGrammar.get("NEG").get(rand.nextInt(VerbGrammar.get("NEG").size())));
         }
         if(revisedSlots[1] == 1){
-            verbSlotHolder.add(VerbGrammar.get("SC").get(rand.nextInt(VerbGrammar.get("SC").size())).replace("\"", ""));
+            verbSlotHolder.add(VerbGrammar.get("SC").get(rand.nextInt(VerbGrammar.get("SC").size())));
         }
         if(revisedSlots[2] == 1){
-            verbSlotHolder.add(VerbGrammar.get("ASP").get(rand.nextInt(VerbGrammar.get("ASP").size())).replace("\"", ""));
+            verbSlotHolder.add(VerbGrammar.get("ASP").get(rand.nextInt(VerbGrammar.get("ASP").size())));
         }
         if(revisedSlots[3] == 1){
-            verbSlotHolder.add(VerbGrammar.get("MOD").get(rand.nextInt(VerbGrammar.get("MOD").size())).replace("\"", ""));
+            verbSlotHolder.add(VerbGrammar.get("MOD").get(rand.nextInt(VerbGrammar.get("MOD").size())));
         }
         if(revisedSlots[4] == 1){
-            verbSlotHolder.add(VerbGrammar.get("OC").get(rand.nextInt(VerbGrammar.get("OC").size())).replace("\"", ""));
+            verbSlotHolder.add(VerbGrammar.get("OC").get(rand.nextInt(VerbGrammar.get("OC").size())));
         }
         if(revisedSlots[5] == 1){
-            verbSlotHolder.add(VerbGrammar.get("VR").get(rand.nextInt(VerbGrammar.get("VR").size())).replace("\"", ""));
+            verbSlotHolder.add(VerbGrammar.get("VR").get(rand.nextInt(VerbGrammar.get("VR").size())));
         }
         if(revisedSlots[6] == 1){
-            verbSlotHolder.add(VerbGrammar.get("C").get(rand.nextInt(VerbGrammar.get("C").size())).replace("\"", ""));
+            verbSlotHolder.add(VerbGrammar.get("C").get(rand.nextInt(VerbGrammar.get("C").size())));
         }
         if(revisedSlots[7] == 1){
-            verbSlotHolder.add(VerbGrammar.get("A").get(rand.nextInt(VerbGrammar.get("A").size())).replace("\"", ""));
+            verbSlotHolder.add(VerbGrammar.get("A").get(rand.nextInt(VerbGrammar.get("A").size())));
         }
         if(revisedSlots[8] == 1){
-            verbSlotHolder.add(VerbGrammar.get("R").get(rand.nextInt(VerbGrammar.get("R").size())).replace("\"", ""));
+            verbSlotHolder.add(VerbGrammar.get("R").get(rand.nextInt(VerbGrammar.get("R").size())));
         }
         if(revisedSlots[9] == 1){
-            verbSlotHolder.add(VerbGrammar.get("P").get(rand.nextInt(VerbGrammar.get("P").size())).replace("\"", ""));
+            verbSlotHolder.add(VerbGrammar.get("P").get(rand.nextInt(VerbGrammar.get("P").size())));
         }
 
         //Negative or positive final vowel

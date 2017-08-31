@@ -18,9 +18,7 @@ public class VerbCARPExtension {
     public int changeCPrefixExersize(){
         ArrayList<String> negativeForm = vc.generateSpecificVerbForm(0, 0, 0, 0, 0, 1, 1, 0, 0, 0);
         System.out.println(negativeForm);
-        negativeForm.set(0, "");
-        negativeForm.set(1, "");
-        negativeForm.set(4, "");
+        negativeForm.set(0, ""); negativeForm.set(1, ""); negativeForm.set(4, "");
         System.out.println(negativeForm);
 
         Random rand = new Random();
@@ -39,9 +37,6 @@ public class VerbCARPExtension {
         Scanner sc = new Scanner(System.in);
         String answer = sc.nextLine();
         String [] answerEvaluation = answer.split(" ");
-        for (int i = 0; i<answerEvaluation.length; i++){
-            System.out.println(answerEvaluation[i]);
-        }
 
         boolean isFirstPartCorrect = false;
         boolean isSecondPartCorrect = false;
@@ -52,7 +47,7 @@ public class VerbCARPExtension {
                     isFirstPartCorrect = true;
                 }
             }
-        }else if (finalVowel.equals("a")){
+        } else if (finalVowel.equals("a")){
             for (String s: vc.getVerbGrammar("SC")){
                 if (s.equals(answerEvaluation[0])){
                     isFirstPartCorrect = true;
@@ -68,11 +63,14 @@ public class VerbCARPExtension {
 
         if (isFirstPartCorrect && isSecondPartCorrect){
             System.out.println("You got it!");
-        }else{
+            return 1;
+        } else{
             System.out.println("Wrong, the verb should contain a Subject Concord and Object Concord");
+            return -1;
         }
+    }
 
+    public void runExersize(){
 
-        return 0;
     }
 }
