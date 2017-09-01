@@ -2,12 +2,7 @@ import java.util.ArrayList;
 
 public class SentenceClass {
 
-    // This list includes the verbs that will be used in the noun verb noun sentence
-    String[] NVNverbInclusionList = {};
-    // This list essentially includes all the verbs that we want to see occur in the sentence generation
-    String[] NVverbInclusionList = {"udla", "gijima", "ima", "igxuma", "cabanga", "funda", "landela"};
-    // The nouns that go into this list cannot be used in conjuction with the above verbs
-    ArrayList<String> nounExclusionList = new ArrayList<>();
+    
 
     public String generateNVNsentence(){
         //VerbClass verb = new VerbClass();
