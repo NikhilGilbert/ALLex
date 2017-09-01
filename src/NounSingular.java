@@ -8,7 +8,6 @@ import java.util.Scanner;
 public class NounSingular {
 
     private HashMap<String, ArrayList<String>> NounList =new HashMap<>();
-    String ser = "ddds";
 
     public NounSingular(){
         try{
