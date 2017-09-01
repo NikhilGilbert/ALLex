@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class SentenceClass {
 
-    
+
 
     public String generateNVNsentence(){
         //VerbClass verb = new VerbClass();
@@ -15,7 +15,6 @@ public class SentenceClass {
     public String generateNVsentence(){
         NounClass subject = new NounClass();
         //VerbClass verb = new VerbClass();
-
         return null;
     }
 
