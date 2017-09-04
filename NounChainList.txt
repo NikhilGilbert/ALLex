@@ -1,0 +1,231 @@
+umfana <1;s> ALL_v;e_dumisa;e_cisha
+umlungu <1;s> ALL_v;e_dumisa;e_cisha
+Umntwana <1;s> ALL_v;e_dumisa;e_cisha
+umzali <1;s> ALL_v;e_dumisa;e_cisha
+umzala <1;s> ALL_v;e_dumisa;e_cisha
+umfowethu <1;s> ALL_v;e_dumisa;e_cisha
+urnfowenu <1;s> ALL_v;e_dumisa;e_cisha
+umfowabo <1;s> ALL_v;e_dumisa;e_cisha
+umnyeni <1;s> ALL_v;e_dumisa;e_cisha
+umuntu <1;s> ALL_v;e_dumisa;e_cisha
+umngane <1;s> ALL_v;e_dumisa;e_cisha
+umtakathi <1;s> ALL_v;e_dumisa;e_cisha
+umshumayeli <1;s> ALL_v;e_dumisa;e_cisha
+umfundisi <1;s> ALL_v;e_dumisa;e_cisha
+umfundi <1;s> ALL_v;e_dumisa;e_cisha
+umbazi <1;s> ALL_v;e_dumisa;e_cisha
+umpheki <1;s> ALL_v;e_dumisa;e_cisha
+umhloli <1;s> ALL_v;e_dumisa;e_cisha
+umshayeli <1;s> ALL_v;e_dumisa;e_cisha
+umfazi <1;s> ALL_v;e_dumisa;e_cisha
+umlimi <1;s> ALL_v;e_dumisa;e_cisha
+umsizi  <1;s> ALL_v;e_dumisa;e_cisha
+umdlali <1;s> ALL_v;e_dumisa;e_cisha
+Umholi <1;s> ALL_v;e_dumisa;e_cisha
+umkhandi <1;s> ALL_v;e_dumisa;e_cisha
+umSotho <1;s> ALL_v;e_dumisa;e_cisha
+Umama <1a;s> ALL_v;e_dumisa;e_cisha
+Unina <1a;s> ALL_v;e_dumisa;e_cisha
+ubaba <1a;s> ALL_v;e_dumisa;e_cisha
+uyihlo <1a;s> ALL_v;e_dumisa;e_cisha
+uyise <1a;s> ALL_v;e_dumisa;e_cisha
+ubabamkhulu <1a;s> ALL_v;e_dumisa;e_cisha
+uyisemkhulu <1a;s> ALL_v;e_dumisa;e_cisha
+umyihlomkhulu <1a;s> ALL_v;e_dumisa;e_cisha
+udadewethu <1a;s> ALL_v;e_dumisa;e_cisha
+udadewenu <1a;s> ALL_v;e_dumisa;e_cisha
+udadewabo <1a;s> ALL_v;e_dumisa;e_cisha
+u-anti <1a;s> ALL_v;e_dumisa;e_cisha
+umalume <1a;s> ALL_v;e_dumisa;e_cisha
+uthisha <1a;s> ALL_v;e_dumisa;e_cisha
+udokotela <1a;s> ALL_v;e_dumisa;e_cisha
+uthayi <1a;s> ALL_v;e_dumisa;e_cisha
+unesi <1a;s> ALL_v;e_dumisa;e_cisha
+umisi <1a;s> ALL_v;e_dumisa;e_cisha
+ugogo <1a;s> ALL_v;e_dumisa;e_cisha
+umkami <1a;s> ALL_v;e_dumisa;e_cisha 
+umkakho <1a;s> ALL_v;e_dumisa;e_cisha
+umkakhe <1a;s> ALL_v;e_dumisa;e_cisha
+umakoti <1a;s> ALL_v;e_dumisa;e_cisha
+umakhelwane <1a;s> ALL_v;e_dumisa;e_cisha
+umabhalana <1a;s> ALL_v;e_dumisa;e_cisha
+unobhala <1a;s> ALL_v;e_dumisa;e_cisha
+umafukuzela <1a;s> ALL_v;e_dumisa;e_cisha
+ugesi <2a> 
+ugwayi <2a>
+uthayi <2a>
+ubhontshisi <2a>
+ujamu <2a>
+usawoti <2a>
+ushukela <2a>
+umoba <2a>
+ubathatha <2a>
+ubhanana <2a>
+umlilo <3> 
+umfino <3>
+umshini <3>
+umnyango <3>
+ummese <3>
+ummoya <3>
+umsindo <3>
+umsebenzi <3>
+umbuzo <3>
+umzimba <3>
+umphako <3>
+umshini <3>
+umndeni <3>
+umkhuhlane <3>
+umnyango <3>
+umuzi <3>
+ummbila <3>
+ikhaya <5> 
+ifastitela <5> 
+itafula <5>
+ikati <5> 
+izulu <5>
+igeja <5>
+iduku <5>
+igama <5>
+izwi <5>
+ibhasi <5>
+ibhuku <5>
+ibhubhesi <5>
+ifulo <5>
+ibhodwe <5>
+igceke <5>
+ibhakede <5> 
+iwashi <5>
+iyembe <5>
+izambane <5>
+ibhentshi <5>
+isango <5>
+itshe <5>
+ihashi <5>
+ibhokisi <5>
+itiye <5>
+iphentshishi <5>
+iswidi <5>
+ikhekhe <5>
+iculo <5>
+ibhola <5>
+ipulazi <5>
+ibhala <5>
+icwane <5>
+ibhulukwe <5>
+iphalishi <5>
+ibhayisikili <5>
+ikhanda <5>
+iqanda <5>
+isokisi <5>
+ikhishini <5>
+ikamu <5>
+ibhotela <5>
+iklasi <5>
+isonto <5>
+ifenisha <5>
+ifasitela <5>
+ihashi <5>
+ibhetri <5>
+ipuleti <5>
+isela <5>
+iwindi <5>
+ikhandlela <5>
+ibhodlela <5>
+iNgisi <5>
+iNdiya <5>
+iBhunu <5>
+isitsha <7>
+isihlahla <7>
+isibaya <7>
+isigqoko <7>
+isipunu <7>
+isitini <7>
+isikelemu <7;s> ALL_v;e_dumisa;e_cisha
+isgebengu <7;s> ALL_v;e_dumisa;e_cisha
+isalukazi <7;s> ALL_v;e_dumisa;e_cisha
+isinkwa <7>
+isihlalo <7>
+isikhathi <7>
+isikole <7>
+isitolo <7>
+isivalo <7>
+isandla <7>
+isibane <7>
+isitofu <7>
+isicathulo <7>
+isisebenzi <7;s> ALL_v;e_dumisa;e_cisha
+isivakashi <7;s> ALL_v;e_dumisa;e_cisha
+isiboshwa <7;s> ALL_v;e_dumisa;e_cisha
+isitimela <7>
+isiteshi <7>
+isithuthuthu <7>
+isilwane <7>
+isifundo <7>
+isithelo <7>
+isithupa <7>
+isikhombisa <7>
+isishiyakalombili <7>
+isishiyakalolunye <7>
+incwadi <9>
+inyama <9>
+ingubo <9>
+inkomishi <9>
+imakede <9>
+inkuni <9>
+inkukhu <9>
+inkomo <9>
+intombi <9;s> ALL_v;e_dumisa;e_cisha
+imfoloko <9>
+ingane <9;s> ALL_v;e_dumisa;e_cisha
+imali <9>
+indlu <9>
+imbuzi <9>
+intaba <9>
+inyoka <9>
+imbewu <9>
+inkabi <9>
+imvu <9>
+induna <9;s> ALL_v;e_dumisa;e_cisha
+indlela <9>
+insipho <9>
+impahla <9>
+inyoni <9>
+imbongolo <9>
+into <9>
+inqola <9>
+induku <9>
+insizwa <9;s> ALL_v;e_dumisa;e_cisha
+inja <9>
+imvula <9>
+indaba <9>
+imbali <9>
+imoto <9>
+inkosi <9>
+indoda <9>
+inkosikazi <9>
+inkosazana <9>
+inkosana <9>
+intombazana <9>
+insimu <9>
+inkonyane <9>
+uthuli <11> 
+ukhula <11>
+ukhamba <11>
+ubisi <11>
+uswazi <11>
+uxolo <11>
+udonga <11>
+uphaphe <11>
+ukhezo <11>
+ulumi <11>
+udaka <11>
+unyawo <11>
+uthi <11>
+ututhi <11>
+ubuso <14>
+ubuthongo <14>
+ubuhlalu <14>
+ubuhle <14>
+ububi <14>
+ubuhlungu <14>
+ubuntu <14>

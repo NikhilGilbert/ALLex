@@ -9,6 +9,7 @@ public class SentenceGeneratorClass{
 
     private HashMap<String, ArrayList<String>> NounTerminals =new HashMap<>();
 
+
     public SentenceGeneratorClass(){
 
     }
