@@ -91,7 +91,7 @@ public class VerbSCModifier {
                 break;
             }
             else if(points == -2){
-                System.out.println("Study your plurals harder :(");
+                System.out.println("Study your concords harder :(");
                 break;
             }
         }

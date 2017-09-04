@@ -21,11 +21,11 @@ umfazi <1>
 umlimi <1>
 umsizi  <1>
 umdlali <1>
-umholi <1>
+Umholi <1>
 umkhandi <1>
 umSotho <1>
-umama <1a>
-unina <1a>
+Umama <1a>
+Unina <1a>
 ubaba <1a>
 uyihlo <1a>
 uyise <1a>

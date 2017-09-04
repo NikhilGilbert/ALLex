@@ -101,7 +101,7 @@ public class NounClass {
 
     public int findNounClass() throws IOException {
         // If using a better corpus. We can use this to look up nouns for an unannotated corpus
-        FileReader fr = new FileReader("WordList.txt");
+        FileReader fr = new FileReader("NounCorpus.txt");
         BufferedReader br = new BufferedReader(fr);
 
         int nounClass = 0;
@@ -111,84 +111,92 @@ public class NounClass {
         while((currentLine = br.readLine()) != null){
             if (currentLine.indexOf(Noun)!=-1){
                 break;
-            }
-            else{
-                System.out.println("Noun not found.");
-                return -1;
+            }else{
+                continue;
             }
         }
 
-        if (currentLine.contains("<n1>")){
+        if (currentLine.contains("<1>")){
             nounClass = 1;
             System.out.println(1);
             return nounClass;
         }
-        else if(currentLine.contains("<n2>")){
+        else if(currentLine.contains("<1a>")){
+            nounClass = 19;
+            System.out.println(2);
+            return nounClass;
+        }
+        else if(currentLine.contains("<2a>")){
+            nounClass = 20;
+            System.out.println(2);
+            return nounClass;
+        }
+        else if(currentLine.contains("<2>")){
             nounClass = 2;
             System.out.println(2);
             return nounClass;
         }
-        else if(currentLine.contains("<n3>")){
+        else if(currentLine.contains("<3>")){
             nounClass = 3;
             System.out.println(3);
             return nounClass;
         }
-        else if(currentLine.contains("<n4>")){
+        else if(currentLine.contains("<4>")){
             nounClass = 3;
             System.out.println(3);
             return nounClass;
         }
-        else if(currentLine.contains("<n5>")){
+        else if(currentLine.contains("<5>")){
             nounClass = 5;
             System.out.println(5);
             return nounClass;
         }
-        else if(currentLine.contains("<n6>")){
+        else if(currentLine.contains("<6>")){
             nounClass = 3;
             System.out.println(3);
             return nounClass;
         }
-        else if(currentLine.contains("<n7>")){
+        else if(currentLine.contains("<7>")){
             nounClass = 7;
             System.out.println(7);
             return nounClass;
         }
-        else if(currentLine.contains("<n8>")){
+        else if(currentLine.contains("<8>")){
             nounClass = 3;
             System.out.println(3);
             return nounClass;
         }
-        else if(currentLine.contains("<n9>")){
+        else if(currentLine.contains("<9>")){
             nounClass = 9;
             System.out.println(9);
             return nounClass;
         }
-        else if(currentLine.contains("<n10>")){
+        else if(currentLine.contains("<10>")){
             nounClass = 3;
             System.out.println(3);
             return nounClass;
         }
-        else if(currentLine.contains("<n11>")){
+        else if(currentLine.contains("<11>")){
             nounClass = 11;
             System.out.println(11);
             return nounClass;
         }
-        else if(currentLine.contains("<n12>")){
+        else if(currentLine.contains("<12>")){
             nounClass = 3;
             System.out.println(3);
             return nounClass;
         }
-        else if(currentLine.contains("<n13>")){
+        else if(currentLine.contains("<13>")){
             nounClass = 3;
             System.out.println(3);
             return nounClass;
         }
-        else if(currentLine.contains("<n14>")){
+        else if(currentLine.contains("<14>")){
             nounClass = 14;
             System.out.println(14);
             return nounClass;
         }
-        else if(currentLine.contains("<n15>")){
+        else if(currentLine.contains("<15>")){
             nounClass = 15;
             System.out.println(15);
             return nounClass;

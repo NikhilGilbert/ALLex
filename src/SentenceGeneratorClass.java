@@ -1,7 +1,10 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Random;
 
 public class SentenceGeneratorClass{
 
@@ -59,9 +62,60 @@ public class SentenceGeneratorClass{
         }
     }
 
-    public String generateNVsentence(){
+    public String generateNVsentence() throws IOException {
+
+        NounClass nc = new NounClass();
+        VerbClass vc = new VerbClass();
+
         // select random key from the noun list
-        // Add that to the sentence constructor
+        List<String> keysAsArray = new ArrayList<String>(NounConsumables.keySet());
+        Random rand = new Random();
+        String key = keysAsArray.get(rand.nextInt(keysAsArray.size()));
+        String [] splitKey = key.split(" ");
+        nc.setNoun(splitKey[0]);
+
+        ArrayList<String> exceptionList = new ArrayList<>();
+        ArrayList<String> approvedVerbs = NounConsumables.get(key);
+
+        for (int i = 0; i < approvedVerbs.size(); i++){
+            if (approvedVerbs.get(i).startsWith("e_")){
+                exceptionList.add(approvedVerbs.get(i));
+                approvedVerbs.remove(approvedVerbs.indexOf(approvedVerbs.get(i)));
+                i -= i;
+            }
+        }
+
+        //make sure that this verb is terminal // and not in the exclusion list
+        String useableVerb = approvedVerbs.get(rand.nextInt(approvedVerbs.size()));
+
+        boolean exclusionVerb = true;
+        List<String> verbKeys = new ArrayList<String>(VerbConsumables.keySet());
+
+        while(exclusionVerb == true){
+            if (useableVerb.startsWith("ALL_v")){
+                String verbKey = verbKeys.get(rand.nextInt(verbKeys.size()));
+                String [] splitVerbKey = verbKey.split(" ");
+                for (String s: exceptionList){
+                    if (s.contains(splitVerbKey[0])){
+                        exclusionVerb = true;
+                    }
+                    else if (!splitVerbKey[1].contains("t")){
+                        exclusionVerb = true;
+                    }
+                    else{
+                        exclusionVerb = false;
+                        useableVerb = splitVerbKey[0];
+                    }
+                }
+            }else {
+                exclusionVerb = false;
+            }
+        }
+        System.out.println(useableVerb);
+
+        // Create a statement that checks the ALL tags (These need to be terminal for this type of sentence)
+        // Grab a verb and check to ensure that what it obtained is in fact correct
+        //
 
         return null;
     }
@@ -73,4 +127,5 @@ public class SentenceGeneratorClass{
     public String generateNVVsentence(){
         return null;
     }
+
 }

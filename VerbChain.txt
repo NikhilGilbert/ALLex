@@ -1,8 +1,8 @@
 gcwalisa <> imoto;amanzi;umshini;ibhodwe;ibhakede;ibhokisi;inqola 
 sheka <> ALL_NOUNS
 washa <t> imoto;umshini;umnyango;uthayi;ifasitela;ihashi
-sula <t> ifasitela;imoto;ipuleti;inkomishi;infenisha
-faka <> ibhetri;ugesi;ushukela;ubhontshishi;iqanda
+sula <t> ifasitela;imoto;ipuleti;inkomishi;infenisha;ifulo;isango;ikhishini;inwindi
+faka <> ibhetri;ugesi;ushukela;ubhontshishi;iqanda;iduku;ibhokisi;itshe;ibhola;ikamu
 cela <> ummese;umphako;ALL_2a
 dumisa <> imoto;ibhetri;umshini;isibane;isitofu;
 vula <> isitolo;isivalo;isikole;isango;isonto
@@ -29,7 +29,6 @@ gada <> ALL_1;e_umSotho;e_umkhandi
 bhasoba <> ALL_1;e_umSotho;e_umkhandi
 neka <t> uthayi;iduku;iyembe;ibhulukwe;isokisi
 enza <t> itiye;ikhekhe;iphalishi;iqanda;ibhotela
-sula <t> ifulo;isango;ifasitela;ikhishini;inwindi
 dasitha <t> itafula;ibhuku;ibhentshi;iklasi;igceke
 polisha <> ibhayasikili;itshe;isango;itafula;imoto
 shanela <t> ikhishini;indlu;isibane;isithuthuthu;isicathulo
@@ -39,7 +38,6 @@ ayina <> isokisi;ibhulukwe;iyembe;iduku;ingubo
 bilisa <> izambane;itiye;iqanda;iphalishi;ummbila
 siza <t> ALL_1;ALL_1a
 lekelela <t> ALL_1;ALL_1a
-faka <> iduku;ibhokisi;itshe;ibhola;ikamu
 jahile <t> ikhaya;ikhishini;iklasi;ipulazi;ibhasi
 hambisa <> umshini;umphako;ibhuku;iduku;iphalishi 
 tshela <> ALL_1;ALL_1a
