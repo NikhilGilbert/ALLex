@@ -11,9 +11,11 @@ public class Driver {
         * they should access the options lis which then
         * */
 
+        SentenceGeneratorClass sgc = new SentenceGeneratorClass();
+        sgc.generateNVsentence();
 
-        VerbCARPExtension vce = new VerbCARPExtension();
-        vce.changeCPrefixExersize();
+//        VerbCARPExtension vce = new VerbCARPExtension();
+//        vce.changeCPrefixExersize();
 
 //        VerbSCModifier vm = new VerbSCModifier();
 //        vm.runExercise();

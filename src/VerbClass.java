@@ -7,6 +7,8 @@ import java.util.Random;
 
 public class VerbClass {
 
+    //add annotation mechanism
+
     private HashMap<String, ArrayList<String>> VerbGrammar =new HashMap<>();
     String Verb;
 
@@ -16,6 +18,10 @@ public class VerbClass {
 
     public String getCurrentVerb(){
         return Verb;
+    }
+
+    public String getAnnotatedVerb(){
+        return Verb + "_v";
     }
 
     public ArrayList<String> getVerbGrammar(String componentIndex){

@@ -20,6 +20,10 @@ public class NounClass {
         return Noun;
     }
 
+    public String getAnnotatedNoun(){
+        return Noun + "_n";
+    }
+
     public String pluraliseNoun(String nc){
 
         String changedNounForm = null;
