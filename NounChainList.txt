@@ -4,7 +4,7 @@ Umntwana <1;s> ALL_v;e_dumisa;e_cisha
 umzali <1;s> ALL_v;e_dumisa;e_cisha
 umzala <1;s> ALL_v;e_dumisa;e_cisha
 umfowethu <1;s> ALL_v;e_dumisa;e_cisha
-urnfowenu <1;s> ALL_v;e_dumisa;e_cisha
+umfowenu <1;s> ALL_v;e_dumisa;e_cisha
 umfowabo <1;s> ALL_v;e_dumisa;e_cisha
 umnyeni <1;s> ALL_v;e_dumisa;e_cisha
 umuntu <1;s> ALL_v;e_dumisa;e_cisha

@@ -13,7 +13,6 @@ public class SentenceGeneratorClass{
 
     public SentenceGeneratorClass(){
 
-        // Load nouns into a hashtable
         try{
             FileReader fr = new FileReader("NounChainList.txt");
             BufferedReader br = new BufferedReader(fr);
@@ -87,7 +86,6 @@ public class SentenceGeneratorClass{
 
         //make sure that this verb is terminal // and not in the exclusion list
         String useableVerb = approvedVerbs.get(rand.nextInt(approvedVerbs.size()));
-
         boolean exclusionVerb = true;
         List<String> verbKeys = new ArrayList<String>(VerbConsumables.keySet());
 
@@ -111,16 +109,15 @@ public class SentenceGeneratorClass{
                 exclusionVerb = false;
             }
         }
-        System.out.println(useableVerb);
-
-        // Create a statement that checks the ALL tags (These need to be terminal for this type of sentence)
-        // Grab a verb and check to ensure that what it obtained is in fact correct
-        //
+        vc.setVerb(useableVerb);
+        vc.setVerb(vc.nounClassModifier(nc.findNounClass()));
+        System.out.println(nc.getNoun() + " " + vc.getVerb());
 
         return null;
     }
 
     public String generateNVNsentence(){
+
         return null;
     }
 

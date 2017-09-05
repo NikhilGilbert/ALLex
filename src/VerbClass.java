@@ -16,7 +16,7 @@ public class VerbClass {
         Verb = verb;
     }
 
-    public String getCurrentVerb(){
+    public String getVerb(){
         return Verb;
     }
 
@@ -364,28 +364,37 @@ public class VerbClass {
         return slots;
     }
 
-    public String nounClassModifier(int precedingNounClass){
+    public String nounClassModifier(String precedingNounClass){
         String modifiedVerb = null;
 
         /* Each of these modifiers correspond to a noun class. This will be used to change the verb to make it adhere
          the changes of the */
-        if (precedingNounClass == 1){
+        if (precedingNounClass.equals("1")){
             modifiedVerb = "u" + Verb;
         }
-        else if (precedingNounClass == 3){
+        else if (precedingNounClass.equals("1a")){
+
+        }
+        else if (precedingNounClass.equals("2a")){
+
+        }
+        else if (precedingNounClass.equals("3")){
             modifiedVerb = "u" + Verb;
         }
-        else if(precedingNounClass == 5){
+        else if(precedingNounClass.equals("5")){
             modifiedVerb = "li" + Verb;
         }
-        else if (precedingNounClass == 7){
+        else if (precedingNounClass.equals("7")){
             modifiedVerb = "si" + Verb;
         }
-        else if (precedingNounClass == 9){
+        else if (precedingNounClass.equals("9")){
             modifiedVerb = "i" + Verb;
         }
-        else if (precedingNounClass == 11){
+        else if (precedingNounClass.equals("11")){
             modifiedVerb = "lu" + Verb;
+        }
+        else if (precedingNounClass.equals("14")){
+
         }
         return modifiedVerb;
     }
@@ -393,26 +402,35 @@ public class VerbClass {
     public String pluraliseVerb(String precedingNoun) throws IOException {
         String pluralisedVerb = null;
         NounClass nc = new NounClass(precedingNoun);
-        int nounClass = nc.findNounClass();
+        String nounClass = nc.findNounClass();
 
         // These rules can be extended with further study of the patterns
-        if (nounClass == 1){
+        if (nounClass.equals("1")){
             pluralisedVerb =  "ba" + Verb;
         }
-        else if (nounClass == 3){
+        else if (nounClass.equals("1a")){
+
+        }
+        else if (nounClass.equals("2a")){
+
+        }
+        else if (nounClass.equals("3")){
             pluralisedVerb = "i" + Verb;
         }
-        else if(nounClass == 5){
+        else if(nounClass.equals("5")){
             pluralisedVerb = "a" + Verb;
         }
-        else if (nounClass == 7){
+        else if (nounClass.equals("7")){
             pluralisedVerb = "zi" + Verb;
         }
-        else if (nounClass == 9){
+        else if (nounClass.equals("9")){
             pluralisedVerb = "zi" + Verb;
         }
-        else if (nounClass == 11){
+        else if (nounClass.equals("11")){
             pluralisedVerb = "zi" + Verb;
+        }
+        else if (nounClass.equals(("14"))){
+
         }
         return pluralisedVerb;
     }

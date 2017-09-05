@@ -28,7 +28,7 @@ khipa <> inkuni;inja;imphala;uthuli;ubuhlalu
 gada <> ALL_1;e_umSotho;e_umkhandi
 bhasoba <> ALL_1;e_umSotho;e_umkhandi
 neka <t> uthayi;iduku;iyembe;ibhulukwe;isokisi
-enza <t> itiye;ikhekhe;iphalishi;iqanda;ibhotela
+enza <> itiye;ikhekhe;iphalishi;iqanda;ibhotela
 dasitha <t> itafula;ibhuku;ibhentshi;iklasi;igceke
 polisha <> ibhayasikili;itshe;isango;itafula;imoto
 shanela <t> ikhishini;indlu;isibane;isithuthuthu;isicathulo
@@ -61,7 +61,7 @@ thayipha <t> iculo;igama;isifundo;incwadi;into
 siza <t;vc> ALL_1;ALL_1a 
 funda <t> iculo;igama;isifundo;incwadi;into
 khuluma <t> ALL_1;ALL_1a
-qala <t;vc> v_khuluma;v_funda;v_thayipa;v_bhala;v_phuma  
+qala <vc> khuluma;funda;thayipa;bhala;phuma
 shela <t> ALL_1;ALL_1a
 linda <t;ac> 
 lindela <> ALL_1;ALL_1a
