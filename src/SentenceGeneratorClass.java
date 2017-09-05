@@ -112,12 +112,68 @@ public class SentenceGeneratorClass{
         vc.setVerb(useableVerb);
         vc.setVerb(vc.nounClassModifier(nc.findNounClass()));
         System.out.println(nc.getNoun() + " " + vc.getVerb());
-
-        return null;
+        String NVsentence = nc.getNoun() + " " + vc.getVerb();
+        return NVsentence;
     }
 
-    public String generateNVNsentence(){
+    public String generateNVNsentence() throws IOException {
+        NounClass nc = new NounClass();
+        VerbClass vc = new VerbClass();
+        NounClass nc2 = new NounClass();
 
+        // select random key from the noun list
+        List<String> keysAsArray = new ArrayList<String>(NounConsumables.keySet());
+        Random rand = new Random();
+        String key = keysAsArray.get(rand.nextInt(keysAsArray.size()));
+        String [] splitKey = key.split(" ");
+        nc.setNoun(splitKey[0]);
+
+        ArrayList<String> exceptionList = new ArrayList<>();
+        ArrayList<String> approvedVerbs = NounConsumables.get(key);
+
+        for (int i = 0; i < approvedVerbs.size(); i++){
+            if (approvedVerbs.get(i).startsWith("e_")){
+                exceptionList.add(approvedVerbs.get(i));
+                approvedVerbs.remove(approvedVerbs.indexOf(approvedVerbs.get(i)));
+                i -= i;
+            }
+        }
+
+        //make sure that this verb is terminal // and not in the exclusion list
+        String useableVerb = approvedVerbs.get(rand.nextInt(approvedVerbs.size()));
+        boolean exclusionVerb = true;
+        List<String> verbKeys = new ArrayList<String>(VerbConsumables.keySet());
+
+        while(exclusionVerb == true){
+            if (useableVerb.startsWith("ALL_v")){
+                String verbKey = verbKeys.get(rand.nextInt(verbKeys.size()));
+                String [] splitVerbKey = verbKey.split(" ");
+                for (String s: exceptionList){
+                    if (s.contains(splitVerbKey[0])){
+                        exclusionVerb = true;
+                    }
+                    else{
+                        exclusionVerb = false;
+                        useableVerb = splitVerbKey[0];
+                    }
+                }
+            }else {
+                exclusionVerb = false;
+            }
+        }
+        vc.setVerb(useableVerb);
+
+        String useableNoun = null;
+        ArrayList<String> approvedNouns = new ArrayList<>();
+        List<String> VerbConsumablesKeys = new ArrayList<String>(VerbConsumables.keySet());
+        for (String s: VerbConsumablesKeys){
+            if (s.startsWith(vc.getVerb())){
+                approvedNouns = VerbConsumables.get(s);
+            }
+        }
+
+
+        // vc.setVerb(vc.nounClassModifier(nc.findNounClass()));
         return null;
     }
 

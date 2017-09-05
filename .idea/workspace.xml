@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f08de6e-65fd-40b7-a94f-3d88ee988464" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ALLexProject/NounClass.class" afterPath="$PROJECT_DIR$/out/production/ALLexProject/NounClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ALLexProject/VerbSCModifier.class" afterPath="$PROJECT_DIR$/out/production/ALLexProject/VerbSCModifier.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/ALLexProject/Driver.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ALLexProject/VerbClass.class" afterPath="$PROJECT_DIR$/out/production/ALLexProject/VerbClass.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NounChainList.txt" afterPath="$PROJECT_DIR$/NounChainList.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VerbChain.txt" afterPath="$PROJECT_DIR$/VerbChain.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NounClass.java" afterPath="$PROJECT_DIR$/src/NounClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Driver.java" afterPath="$PROJECT_DIR$/src/Driver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SentenceGeneratorClass.java" afterPath="$PROJECT_DIR$/src/SentenceGeneratorClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VerbClass.java" afterPath="$PROJECT_DIR$/src/VerbClass.java" />
     </list>
     <ignored path="ALLex.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,24 +31,27 @@
       <file leaf-file-name="Driver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Driver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
+            <state relative-caret-position="127">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
-                <marker date="1504542186654" expanded="true" signature="973:1047" placeholder="..." />
+                <marker date="1504617703241" expanded="true" signature="974:1048" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SentenceGeneratorClass.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SentenceGeneratorClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SentenceGeneratorClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1028">
-              <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+            <state relative-caret-position="8">
+              <caret line="152" column="45" selection-start-line="152" selection-start-column="45" selection-end-line="152" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2372#2380#0" expanded="true" />
                 <element signature="e#3273#3281#0" expanded="true" />
+                <element signature="e#4621#4629#0" expanded="true" />
+                <element signature="e#5522#5530#0" expanded="true" />
+                <element signature="e#6392#6400#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,26 +72,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NounClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NounClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="190" column="19" selection-start-line="190" selection-start-column="19" selection-end-line="190" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VerbClass.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/VerbClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4616">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -133,13 +113,13 @@
         <option value="$PROJECT_DIR$/src/NounSingular.java" />
         <option value="$PROJECT_DIR$/src/SentenceClass.java" />
         <option value="$PROJECT_DIR$/src/TempOrderer.java" />
-        <option value="$PROJECT_DIR$/src/Driver.java" />
         <option value="$PROJECT_DIR$/NounCorpus.txt" />
         <option value="$PROJECT_DIR$/src/VerbSCModifier.java" />
         <option value="$PROJECT_DIR$/src/NounClass.java" />
         <option value="$PROJECT_DIR$/NounChainList.txt" />
         <option value="$PROJECT_DIR$/VerbChain.txt" />
         <option value="$PROJECT_DIR$/src/VerbClass.java" />
+        <option value="$PROJECT_DIR$/src/Driver.java" />
         <option value="$PROJECT_DIR$/src/SentenceGeneratorClass.java" />
       </list>
     </option>
@@ -147,7 +127,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1378" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -175,8 +155,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -225,12 +206,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -594,26 +574,33 @@
       <option name="project" value="LOCAL" />
       <updated>1504564432667</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="SentenceGenerator NV sentences are complete, accomodated NounClass and VerbClass to deal with string identifiers for the nounclassfinder method, still need to implement some rules for 1a and 2a noun classes as well as 14.">
+      <created>1504612438350</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1504612438350</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5030257" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.8921713" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.49394855" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3251634" sideWeight="0.49394855" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16691957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16641453" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -647,7 +634,8 @@
     <MESSAGE value="Added functionality to noun and verb classes. They can both return the word that they contain in an annotated form, also added functionality in the sentence generator constructor so that it can load stuff from the Noun Chain Database." />
     <MESSAGE value="Added functionality to load up the VerbChain" />
     <MESSAGE value="Got the sentence generator to return an adequate noun and verb, works with one method. Need to restructure and ensure that the code works more efficiently. Perhaps create a method for commonly used code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Got the sentence generator to return an adequate noun and verb, works with one method. Need to restructure and ensure that the code works more efficiently. Perhaps create a method for commonly used code" />
+    <MESSAGE value="SentenceGenerator NV sentences are complete, accomodated NounClass and VerbClass to deal with string identifiers for the nounclassfinder method, still need to implement some rules for 1a and 2a noun classes as well as 14." />
+    <option name="LAST_COMMIT_MESSAGE" value="SentenceGenerator NV sentences are complete, accomodated NounClass and VerbClass to deal with string identifiers for the nounclassfinder method, still need to implement some rules for 1a and 2a noun classes as well as 14." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -666,7 +654,7 @@
         <state relative-caret-position="102">
           <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding>
-            <marker date="1504542186654" expanded="true" signature="973:1047" placeholder="..." />
+            <marker date="1504617703241" expanded="true" signature="974:1048" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -713,7 +701,7 @@
         <state relative-caret-position="221">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <marker date="1504542186654" expanded="true" signature="973:1047" placeholder="..." />
+            <marker date="1504617703241" expanded="true" signature="974:1048" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -745,7 +733,7 @@
         <state relative-caret-position="136">
           <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding>
-            <marker date="1504542186654" expanded="true" signature="973:1047" placeholder="..." />
+            <marker date="1504617703241" expanded="true" signature="974:1048" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -770,7 +758,7 @@
         <state relative-caret-position="85">
           <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="61" />
           <folding>
-            <marker date="1504542186654" expanded="true" signature="973:1047" placeholder="..." />
+            <marker date="1504617703241" expanded="true" signature="974:1048" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -795,7 +783,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1504542186654" expanded="true" signature="973:1047" placeholder="..." />
+            <marker date="1504617703241" expanded="true" signature="974:1048" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -820,7 +808,7 @@
         <state relative-caret-position="510">
           <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
           <folding>
-            <marker date="1504542186654" expanded="true" signature="973:1047" placeholder="..." />
+            <marker date="1504617703241" expanded="true" signature="974:1048" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -906,7 +894,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1581">
           <caret line="98" column="40" selection-start-line="98" selection-start-column="40" selection-end-line="98" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -928,7 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -936,7 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1207">
           <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -944,27 +929,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="802">
           <caret line="93" column="55" selection-start-line="93" selection-start-column="55" selection-end-line="93" selection-end-column="55" />
-          <folding>
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Driver.java">
+    <entry file="file://$PROJECT_DIR$/src/VerbClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <marker date="1504542186654" expanded="true" signature="973:1047" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VerbChain.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="63" column="38" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
+        <state relative-caret-position="-5636">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -985,23 +956,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SentenceGeneratorClass.java">
+    <entry file="file://$PROJECT_DIR$/src/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1028">
-          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+        <state relative-caret-position="127">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2372#2380#0" expanded="true" />
-            <element signature="e#3273#3281#0" expanded="true" />
+            <marker date="1504617703241" expanded="true" signature="974:1048" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/VerbClass.java">
+    <entry file="file://$PROJECT_DIR$/VerbChain.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4616">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        <state relative-caret-position="212">
+          <caret line="63" column="38" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SentenceGeneratorClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="152" column="45" selection-start-line="152" selection-start-column="45" selection-end-line="152" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2372#2380#0" expanded="true" />
+            <element signature="e#3273#3281#0" expanded="true" />
+            <element signature="e#4621#4629#0" expanded="true" />
+            <element signature="e#5522#5530#0" expanded="true" />
+            <element signature="e#6392#6400#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

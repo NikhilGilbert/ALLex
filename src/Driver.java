@@ -12,7 +12,7 @@ public class Driver {
         * */
 
         SentenceGeneratorClass sgc = new SentenceGeneratorClass();
-        sgc.generateNVsentence();
+        sgc.generateNVNsentence();
 
 //        VerbCARPExtension vce = new VerbCARPExtension();
 //        vce.changeCPrefixExersize();
