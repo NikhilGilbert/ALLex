@@ -163,14 +163,61 @@ public class SentenceGeneratorClass{
         }
         vc.setVerb(useableVerb);
 
+
+        // Getting the Third noun
         String useableNoun = null;
         ArrayList<String> approvedNouns = new ArrayList<>();
+        ArrayList<String> exclusionList = new ArrayList<>();
+
         List<String> VerbConsumablesKeys = new ArrayList<String>(VerbConsumables.keySet());
         for (String s: VerbConsumablesKeys){
             if (s.startsWith(vc.getVerb())){
                 approvedNouns = VerbConsumables.get(s);
             }
         }
+
+        // search the list at randomly and return a value
+        // create checks for the ALL identifiers, make sure they are good
+        for (int i = 0; i<approvedNouns.size(); i++){
+            if(approvedNouns.get(i).startsWith("e_")){
+                exclusionList.add(approvedNouns.get(i));
+                approvedNouns.remove(i);
+                i -= i;
+            }
+        }
+
+        if (exclusionList.isEmpty()){
+            useableNoun = approvedNouns.get(rand.nextInt(approvedNouns.size()));
+            if (useableNoun.startsWith("ALL_")){
+                String nounClass = useableNoun.substring(4, useableNoun.length());
+
+
+            }
+
+        }
+        else if (!exclusionList.isEmpty()){
+            boolean exclusionNoun = true;
+            useableNoun = approvedNouns.get(rand.nextInt(approvedNouns.size()));
+
+            while(exclusionNoun == true){
+                if (useableNoun.startsWith("ALL_")){
+//                    String [] splitVerbKey = verbKey.split(" ");
+//                    for (String s: exceptionList){
+//                        if (s.contains(splitVerbKey[0])){
+//                            exclusionVerb = true;
+//                        }
+//                        else{
+//                            exclusionVerb = false;
+//                            useableVerb = splitVerbKey[0];
+//                        }
+//                    }
+                }else {
+                    exclusionVerb = false;
+                }
+            }
+        }
+
+
 
 
         // vc.setVerb(vc.nounClassModifier(nc.findNounClass()));
@@ -179,6 +226,32 @@ public class SentenceGeneratorClass{
 
     public String generateNVVsentence(){
         return null;
+    }
+
+    public String retrieveFromNounCorpus(String nounClass){
+        String noun = null;
+        ArrayList approvedNouns = new ArrayList();
+
+        try{
+            FileReader fr = new FileReader("NounCorpus.txt");
+            BufferedReader br = new BufferedReader(fr);
+
+            String currentLine = null;
+
+            while((currentLine = br.readLine()) != null){
+                String[] splitter = currentLine.split(" ");
+                if (splitter[1].equals("<"+ nounClass +">")){
+                    approvedNouns.add(splitter[0]);
+                }
+            }
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+
+        Random rand = new Random();
+        noun = approvedNouns.get(rand.nextInt(approvedNouns.size())).toString();
+        return noun;
     }
 
 }
