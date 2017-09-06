@@ -3,7 +3,7 @@ sheka <> ALL_NOUNS
 washa <t> imoto;umshini;umnyango;uthayi;ifasitela;ihashi
 sula <t> ifasitela;imoto;ipuleti;inkomishi;infenisha;ifulo;isango;ikhishini;inwindi
 faka <> ibhetri;ugesi;ushukela;ubhontshishi;iqanda;iduku;ibhokisi;itshe;ibhola;ikamu
-cela <> ummese;umphako;ALL_2a
+cela <> ALL_2a
 dumisa <> imoto;ibhetri;umshini;isibane;isitofu;
 vula <> isitolo;isivalo;isikole;isango;isonto
 sondela <> ifasitela;imoto;isitimela;isithuthuthu;isivalo 
@@ -41,12 +41,12 @@ lekelela <t> ALL_1;ALL_1a
 jahile <t> ikhaya;ikhishini;iklasi;ipulazi;ibhasi
 hambisa <> umshini;umphako;ibhuku;iduku;iphalishi 
 tshela <> ALL_1;ALL_1a
-zama <vc> v_lekelela;v_siza;v_bhala;v_phuma;v_funda
+zama <vc> lekelela;siza;bhala;phuma;funda
 phendula <t> ALL_1;ALL_1a
 buya <t> isitola;umuzi;ikhaya;ibhentshi;ikhishini
 lungisa <t> ALL_1;ALL_1a
 lekelela <t> ALL_1;ALL_1a
-kwazi <t;vc> v_lekelela;v_siza;v_bhala;v_phuma;v_funda
+kwazi <t;vc> lekelela;siza;bhala;phuma;funda
 qhubeka <t;vc> 
 phuma <t> iklasi;ikhishini;isango;ipulazi;isonto
 hlela <t> incwadi
@@ -56,7 +56,7 @@ biza <> ALL_1;ALL_1a
 thenga <t> ALL_2a
 qeda <t> ALL_2a
 ya <t;ac>  
-khuthele <vc> v_bhala;v_funda;v_siza;v_zama;v_qala  
+khuthele <vc> bhala;funda;siza;zama;qala
 thayipha <t> iculo;igama;isifundo;incwadi;into 
 siza <t;vc> ALL_1;ALL_1a 
 funda <t> iculo;igama;isifundo;incwadi;into

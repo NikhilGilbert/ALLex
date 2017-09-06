@@ -121,13 +121,15 @@ public class SentenceGeneratorClass{
         VerbClass vc = new VerbClass();
         NounClass nc2 = new NounClass();
 
-        // select random key from the noun list
+        // GET THE NOUN
         List<String> keysAsArray = new ArrayList<String>(NounConsumables.keySet());
         Random rand = new Random();
         String key = keysAsArray.get(rand.nextInt(keysAsArray.size()));
         String [] splitKey = key.split(" ");
         nc.setNoun(splitKey[0]);
 
+
+        // GET THE VERB
         ArrayList<String> exceptionList = new ArrayList<>();
         ArrayList<String> approvedVerbs = NounConsumables.get(key);
 
@@ -164,20 +166,20 @@ public class SentenceGeneratorClass{
         vc.setVerb(useableVerb);
 
 
-        // Getting the Third noun
+        // GET THE SECOND NOUN
         String useableNoun = null;
         ArrayList<String> approvedNouns = new ArrayList<>();
         ArrayList<String> exclusionList = new ArrayList<>();
 
         List<String> VerbConsumablesKeys = new ArrayList<String>(VerbConsumables.keySet());
+        System.out.println(vc.getVerb());
         for (String s: VerbConsumablesKeys){
-            if (s.startsWith(vc.getVerb())){
+            if (s.startsWith(vc.getVerb())){ //flag
                 approvedNouns = VerbConsumables.get(s);
             }
         }
 
-        // search the list at randomly and return a value
-        // create checks for the ALL identifiers, make sure they are good
+        // prunes the returned list for exceptions and allows us to randomly draw from it
         for (int i = 0; i<approvedNouns.size(); i++){
             if(approvedNouns.get(i).startsWith("e_")){
                 exclusionList.add(approvedNouns.get(i));
@@ -186,14 +188,13 @@ public class SentenceGeneratorClass{
             }
         }
 
+        // this actually gets the noun from the list
         if (exclusionList.isEmpty()){
-            useableNoun = approvedNouns.get(rand.nextInt(approvedNouns.size()));
+            useableNoun = approvedNouns.get(rand.nextInt(approvedNouns.size())); // flag
             if (useableNoun.startsWith("ALL_")){
                 String nounClass = useableNoun.substring(4, useableNoun.length());
-
-
+                useableNoun = retrieveFromNounCorpus(nounClass);
             }
-
         }
         else if (!exclusionList.isEmpty()){
             boolean exclusionNoun = true;
@@ -201,26 +202,25 @@ public class SentenceGeneratorClass{
 
             while(exclusionNoun == true){
                 if (useableNoun.startsWith("ALL_")){
-//                    String [] splitVerbKey = verbKey.split(" ");
-//                    for (String s: exceptionList){
-//                        if (s.contains(splitVerbKey[0])){
-//                            exclusionVerb = true;
-//                        }
-//                        else{
-//                            exclusionVerb = false;
-//                            useableVerb = splitVerbKey[0];
-//                        }
-//                    }
+                    String nounClass = useableNoun.substring(4,useableNoun.length());
+                    useableNoun = retrieveFromNounCorpus(nounClass);
+                    for (String s: exclusionList){
+                        if (s.contains(useableNoun)){
+                            exclusionNoun = true;
+                        }
+                        else{
+                            exclusionNoun = false;
+                        }
+                    }
                 }else {
-                    exclusionVerb = false;
+                    exclusionNoun = false;
                 }
             }
         }
+        nc2.setNoun(useableNoun);
+        vc.setVerb(vc.nounClassModifier(nc.findNounClass()));
+        System.out.println(nc.getNoun() + " " + vc.getVerb() + " " + nc2.getNoun());
 
-
-
-
-        // vc.setVerb(vc.nounClassModifier(nc.findNounClass()));
         return null;
     }
 
