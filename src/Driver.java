@@ -10,7 +10,8 @@ public class Driver {
 //        }
 
         SentencePluraliser sp = new SentencePluraliser();
-        sp.twoWordSentence();
+        sp.threeWordSenetence();
+
 //        VerbCARPExtension vce = new VerbCARPExtension();
 //        vce.changeCPrefixExersize();
 

@@ -99,6 +99,7 @@ public class NounClass {
                 continue;
             }
         }
+        System.out.println(currentLine);
 
         if (currentLine.contains("<1>")){
             nounClass = "1";
@@ -118,7 +119,6 @@ public class NounClass {
         }
         else if(currentLine.contains("<3>")){
             nounClass = "3";
-            System.out.println(3);
             return nounClass;
         }
         else if(currentLine.contains("<4>")){

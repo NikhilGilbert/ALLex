@@ -172,7 +172,7 @@ public class SentenceGeneratorClass{
         ArrayList<String> exclusionList = new ArrayList<>();
 
         List<String> VerbConsumablesKeys = new ArrayList<String>(VerbConsumables.keySet());
-        System.out.println(vc.getVerb());
+        //System.out.println(vc.getVerb());
         for (String s: VerbConsumablesKeys){
             if (s.startsWith(vc.getVerb())){ //flag
                 approvedNouns = VerbConsumables.get(s);
@@ -220,13 +220,9 @@ public class SentenceGeneratorClass{
 
         nc2.setNoun(useableNoun);
         vc.setVerb(vc.nounClassModifier(nc.findNounClass()));
-        if (vc.getVerb() != null){
-            System.out.println(nc.getNoun() + " " + vc.getVerb() + " " + nc2.getNoun());
-        }else{
-            generateNVNsentence();
-        }
-
-        return null;
+        //System.out.println(nc.getNoun() + " " + vc.getVerb() + " " + nc2.getNoun());
+        String NVNSentence = nc.getNoun() + " " + vc.getVerb() + " " + nc2.getNoun();
+        return NVNSentence;
     }
 
     public String generateNVVsentence(){
@@ -236,6 +232,7 @@ public class SentenceGeneratorClass{
     public String retrieveFromNounCorpus(String nounClass){
         String noun = null;
         ArrayList approvedNouns = new ArrayList();
+        String defaultNoun = "umfana";
 
         try{
             FileReader fr = new FileReader("NounCorpus.txt");
@@ -255,7 +252,12 @@ public class SentenceGeneratorClass{
         }
 
         Random rand = new Random();
-        noun = approvedNouns.get(rand.nextInt(approvedNouns.size())).toString();
+        if(approvedNouns.size()<1){
+            noun = defaultNoun;
+        }else{
+            noun = approvedNouns.get(rand.nextInt(approvedNouns.size())).toString();
+        }
+
         return noun;
     }
 
