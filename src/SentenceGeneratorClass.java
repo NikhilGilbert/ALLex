@@ -111,7 +111,7 @@ public class SentenceGeneratorClass{
         }
         vc.setVerb(useableVerb);
         vc.setVerb(vc.nounClassModifier(nc.findNounClass()));
-        System.out.println(nc.getNoun() + " " + vc.getVerb());
+        //System.out.println(nc.getNoun() + " " + vc.getVerb());
         String NVsentence = nc.getNoun() + " " + vc.getVerb();
         return NVsentence;
     }
@@ -217,9 +217,14 @@ public class SentenceGeneratorClass{
                 }
             }
         }
+
         nc2.setNoun(useableNoun);
         vc.setVerb(vc.nounClassModifier(nc.findNounClass()));
-        System.out.println(nc.getNoun() + " " + vc.getVerb() + " " + nc2.getNoun());
+        if (vc.getVerb() != null){
+            System.out.println(nc.getNoun() + " " + vc.getVerb() + " " + nc2.getNoun());
+        }else{
+            generateNVNsentence();
+        }
 
         return null;
     }

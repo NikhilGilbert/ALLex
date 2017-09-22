@@ -375,10 +375,10 @@ public class VerbClass {
             modifiedVerb = "u" + Verb;
         }
         else if (precedingNounClass.equals("1a")){
-
+            modifiedVerb = "u" + Verb;
         }
         else if (precedingNounClass.equals("2a")){
-
+            modifiedVerb = "u" + Verb;
         }
         else if (precedingNounClass.equals("3")){
             modifiedVerb = "u" + Verb;
@@ -396,7 +396,7 @@ public class VerbClass {
             modifiedVerb = "lu" + Verb;
         }
         else if (precedingNounClass.equals("14")){
-
+            modifiedVerb = "bu" + Verb;
         }
         return modifiedVerb;
     }
@@ -410,27 +410,51 @@ public class VerbClass {
 
         // These rules can be extended with further study of the patterns
         if (nounClass.equals("1")){
+            if (Verb.startsWith("u")){
+                Verb = Verb.substring(1, Verb.length());
+            }
             pluralisedVerb =  "ba" + Verb;
         }
         else if (nounClass.equals("1a")){
-
+            if (Verb.startsWith("u")){
+                Verb = Verb.substring(1, Verb.length());
+            }
+            pluralisedVerb = "ba" + Verb;
         }
         else if (nounClass.equals("2a")){
-
+            if (Verb.startsWith("u")){
+                Verb = Verb.substring(1, Verb.length());
+            }
+            pluralisedVerb = "ba" + Verb;
         }
         else if (nounClass.equals("3")){
+            if (Verb.startsWith("u")){
+                Verb = Verb.substring(1, Verb.length());
+            }
             pluralisedVerb = "i" + Verb;
         }
         else if(nounClass.equals("5")){
+            if (Verb.startsWith("li")){
+                Verb = Verb.substring(2, Verb.length());
+            }
             pluralisedVerb = "a" + Verb;
         }
         else if (nounClass.equals("7")){
+            if (Verb.startsWith("si")){
+                Verb = Verb.substring(1, Verb.length());
+            }
             pluralisedVerb = "zi" + Verb;
         }
         else if (nounClass.equals("9")){
+            if (Verb.startsWith("i")){
+                Verb = Verb.substring(1, Verb.length());
+            }
             pluralisedVerb = "zi" + Verb;
         }
         else if (nounClass.equals("11")){
+            if (Verb.startsWith("lu")){
+                Verb = Verb.substring(1, Verb.length());
+            }
             pluralisedVerb = "zi" + Verb;
         }
         else if (nounClass.equals(("14"))){

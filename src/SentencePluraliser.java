@@ -1,4 +1,5 @@
 import java.io.IOException;
+import java.util.Scanner;
 
 /**
  * Created by Admin on 2017-08-21.
@@ -10,22 +11,33 @@ public class SentencePluraliser {
         sc = new SentenceGeneratorClass();
     }
 
-    private String[] twoWordSentence() throws IOException {
-        String [] sentences = new String[2];
+    public int twoWordSentence() throws IOException {
+
         NounClass nc = new NounClass();
         VerbClass vc = new VerbClass();
-        sentences[0] = sc.generateNVsentence();
+        String nvSentence = sc.generateNVsentence();
+        String pluralisedSentence = null;
 
-        String[] splitter = sentences[0].split(" ");
-        
+        String[] splitter = nvSentence.split(" ");
+        nc.setNoun(splitter[0]);
+        vc.setVerb(splitter[1]);
 
-        // Pluralise the sentences
-        // Scanner input
-        // Compare answers, think about compare functionality
-        // k
+        pluralisedSentence = nc.pluraliseNoun(nc.findNounClass()) + " " + vc.pluraliseVerb(nc.findNounClass());
 
-        // sentences[1] = plurlizedSenetence;
-        return splitter;
+        System.out.println("Can you pluralise this sentence?: " + nvSentence);
+        System.out.println(pluralisedSentence);
+
+        Scanner sc = new Scanner(System.in);
+        String answer = sc.nextLine();
+
+        if (answer.equals(pluralisedSentence)){
+            System.out.println("Right");
+            return 1;
+        }
+        else {
+            System.out.println("Wrong");
+            return -1;
+        }
     }
 
 //    private  String[] threeWordSenetence(){

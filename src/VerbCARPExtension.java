@@ -31,7 +31,7 @@ public class VerbCARPExtension {
         }
         System.out.println("Can you change this C verbs form correctly?: "
                 + vc.concatenateVerb(negativeForm) + finalVowel);
-        System.out.println("Separate your anwer in the format: __ Root Verb __");
+        System.out.println("Separate your answer in the format: Prefixes - Root Verb - Final Vowel");
         System.out.println("Leave space between every suffix to be added to the root verb");
 
         Scanner sc = new Scanner(System.in);
