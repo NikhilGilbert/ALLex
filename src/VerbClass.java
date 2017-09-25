@@ -166,12 +166,6 @@ public class VerbClass {
 
         int[] slots = {NEG, SC, ASP, MOD, OC, VR, C, A, R, P};
         int[] revisedSlots = checkVerbRuleConsistency(slots);
-//        System.out.print(revisedSlots[0]);System.out.print(revisedSlots[1]);
-//        System.out.print(revisedSlots[2]);System.out.print(revisedSlots[3]);
-//        System.out.print(revisedSlots[4]);System.out.print(revisedSlots[5]);
-//        System.out.print(revisedSlots[6]);System.out.print(revisedSlots[7]);
-//        System.out.print(revisedSlots[8]);System.out.print(revisedSlots[9]);
-
 
         ArrayList<String> verbSlotHolder = new ArrayList<>();
 

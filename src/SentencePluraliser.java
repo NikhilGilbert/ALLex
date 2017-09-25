@@ -27,18 +27,17 @@ public class SentencePluraliser {
         System.out.println(nvSentence);
         System.out.println(pluralisedSentence);
 
-//        Scanner sc = new Scanner(System.in);
-//        String answer = sc.nextLine();
-//
-//        if (answer.equals(pluralisedSentence)){
-//            System.out.println("Right");
-//            return 1;
-//        }
-//        else {
-//            System.out.println("Wrong");
-//            return -1;
-//        }
-        return 0;
+        Scanner sc = new Scanner(System.in);
+        String answer = sc.nextLine();
+
+        if (answer.equals(pluralisedSentence)){
+            System.out.println("Right");
+            return 1;
+        }
+        else {
+            System.out.println("Wrong");
+            return -1;
+        }
     }
 
     public int threeWordSenetence() throws IOException {

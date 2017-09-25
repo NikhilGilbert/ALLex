@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f08de6e-65fd-40b7-a94f-3d88ee988464" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DriverDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SentenceScrabbleGen.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ALLexProject/Driver.class" afterPath="$PROJECT_DIR$/out/production/ALLexProject/Driver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ALLexProject/NounClass.class" afterPath="$PROJECT_DIR$/out/production/ALLexProject/NounClass.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ALLexProject/SentencePluraliser.class" afterPath="$PROJECT_DIR$/out/production/ALLexProject/SentencePluraliser.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ALLexProject/VerbClass.class" afterPath="$PROJECT_DIR$/out/production/ALLexProject/VerbClass.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Driver.java" afterPath="$PROJECT_DIR$/src/Driver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NounClass.java" afterPath="$PROJECT_DIR$/src/NounClass.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SentencePluraliser.java" afterPath="$PROJECT_DIR$/src/SentencePluraliser.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VerbClass.java" afterPath="$PROJECT_DIR$/src/VerbClass.java" />
     </list>
@@ -32,43 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Driver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Driver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <marker date="1506367301066" expanded="true" signature="641:715" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VerbChain.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VerbChain.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VerbClass.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/VerbClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="375" column="9" selection-start-line="375" selection-start-column="9" selection-end-line="375" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SentenceGeneratorClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SentenceGeneratorClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-221">
-              <caret line="113" column="10" selection-start-line="113" selection-start-column="10" selection-end-line="113" selection-end-column="10" />
+            <state relative-caret-position="299">
+              <caret line="114" column="61" selection-start-line="114" selection-start-column="61" selection-end-line="114" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2372#2380#0" expanded="true" />
@@ -81,11 +49,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SentencePluraliser.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="VerbClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/VerbClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="405" column="0" selection-start-line="405" selection-start-column="0" selection-end-line="405" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SentencePluraliser.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SentencePluraliser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="-177">
+              <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,56 +71,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NounClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NounClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="67" column="7" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NounCorpus.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NounCorpus.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NounPlural.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NounPlural.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NounSingular.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NounSingular.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="98" column="40" selection-start-line="98" selection-start-column="40" selection-end-line="98" selection-end-column="40" />
+              <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SentenceScrabble.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SentenceScrabble.java">
+      <file leaf-file-name="NounClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NounClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="442">
+              <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SentenceScrabbleGen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SentenceScrabbleGen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DriverDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DriverDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -158,6 +124,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -176,7 +143,6 @@
         <option value="$PROJECT_DIR$/src/SentenceGenerator.java" />
         <option value="$PROJECT_DIR$/WordList.txt" />
         <option value="$PROJECT_DIR$/src/NounPlural.java" />
-        <option value="$PROJECT_DIR$/src/SentenceScrabble.java" />
         <option value="$PROJECT_DIR$/src/VerbPrefixModifier.java" />
         <option value="$PROJECT_DIR$/src/VerbModifier.java" />
         <option value="$PROJECT_DIR$/src/NounSingular.java" />
@@ -187,10 +153,14 @@
         <option value="$PROJECT_DIR$/src/VerbCARPExtension.java" />
         <option value="$PROJECT_DIR$/NounCorpus.txt" />
         <option value="$PROJECT_DIR$/VerbChain.txt" />
+        <option value="$PROJECT_DIR$/src/Driver.java" />
+        <option value="$PROJECT_DIR$/src/SentenceScrabble.java" />
         <option value="$PROJECT_DIR$/src/SentencePluraliser.java" />
         <option value="$PROJECT_DIR$/src/SentenceGeneratorClass.java" />
+        <option value="$PROJECT_DIR$/src/SentenceScrabbleGen.java" />
         <option value="$PROJECT_DIR$/src/NounClass.java" />
-        <option value="$PROJECT_DIR$/src/Driver.java" />
+        <option value="$PROJECT_DIR$/src/SentencePluraliserGen.java" />
+        <option value="$PROJECT_DIR$/src/DriverDemo.java" />
         <option value="$PROJECT_DIR$/src/VerbClass.java" />
       </list>
     </option>
@@ -281,8 +251,24 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="76" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="76" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="76" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="377" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="78" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="78" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="78" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="384" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -299,7 +285,7 @@
       <recent name="C:\Users\Admin\Desktop\ALLexProject\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Driver">
+  <component name="RunManager" selected="Application.DriverDemo">
     <configuration default="false" name="DriverClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="DriverClass" />
@@ -318,6 +304,21 @@
     <configuration default="false" name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Driver" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ALLexProject" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="DriverDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="DriverDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -564,14 +565,16 @@
       <listeners />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.DriverClass" />
       <item index="1" class="java.lang.String" itemvalue="Application.Driver" />
+      <item index="2" class="java.lang.String" itemvalue="Application.DriverDemo" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Driver" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DriverClass" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.DriverDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Driver" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DriverClass" />
       </list>
     </recent_temporary>
   </component>
@@ -694,7 +697,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506120081403</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Corrected generator bugs and flaws in spelling and rule implementation, pluralisers now work with capital letters, change output format, next step is to generate questions for passing into the UI">
+      <created>1506367963264</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1506367963264</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -706,9 +716,9 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5030257" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.50907713" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.49092284" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32569557" sideWeight="0.8921713" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3251634" sideWeight="0.49394855" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -754,7 +764,8 @@
     <MESSAGE value="Senetence generator complete, needed to create pluraliser for sentence exercise" />
     <MESSAGE value="Multiple changes: Completed sentence pluraliser for NV, changed verb pluraliser and prefix modifier, removed multiple trace statements throught the code" />
     <MESSAGE value="Fixed bugs that threw null pointers. Corpus pruned, does not include functionality for NVV sentences, need to implement better more code to handle exceptions that arise from that. Solved problem relating to negative argument" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed bugs that threw null pointers. Corpus pruned, does not include functionality for NVV sentences, need to implement better more code to handle exceptions that arise from that. Solved problem relating to negative argument" />
+    <MESSAGE value="Corrected generator bugs and flaws in spelling and rule implementation, pluralisers now work with capital letters, change output format, next step is to generate questions for passing into the UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected generator bugs and flaws in spelling and rule implementation, pluralisers now work with capital letters, change output format, next step is to generate questions for passing into the UI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -767,30 +778,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <marker date="1506367301066" expanded="true" signature="641:715" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NounPlural.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/NounPluralTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SentenceScrabble.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -819,7 +806,7 @@
         <state relative-caret-position="221">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <marker date="1506367301066" expanded="true" signature="641:715" placeholder="..." />
+            <marker date="1506373978981" expanded="true" signature="649:728" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -851,7 +838,7 @@
         <state relative-caret-position="136">
           <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding>
-            <marker date="1506367301066" expanded="true" signature="641:715" placeholder="..." />
+            <marker date="1506373978981" expanded="true" signature="649:728" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -876,7 +863,7 @@
         <state relative-caret-position="85">
           <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="61" />
           <folding>
-            <marker date="1506367301066" expanded="true" signature="641:715" placeholder="..." />
+            <marker date="1506373978981" expanded="true" signature="649:728" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -901,7 +888,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1506367301066" expanded="true" signature="641:715" placeholder="..." />
+            <marker date="1506373978981" expanded="true" signature="649:728" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -926,7 +913,7 @@
         <state relative-caret-position="510">
           <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
           <folding>
-            <marker date="1506367301066" expanded="true" signature="641:715" placeholder="..." />
+            <marker date="1506373978981" expanded="true" signature="649:728" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1035,41 +1022,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SentenceScrabble.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NounPlural.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NounSingular.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="98" column="40" selection-start-line="98" selection-start-column="40" selection-end-line="98" selection-end-column="40" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SentencePluraliser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1081,10 +1038,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NounClass.java">
+    <entry file="file://$PROJECT_DIR$/src/SentenceScrabble.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="67" column="7" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
+        <state relative-caret-position="85">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NounPlural.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
           <folding />
         </state>
       </provider>
@@ -1097,10 +1062,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <marker date="1506373978981" expanded="true" signature="649:728" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SentenceGeneratorClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="113" column="10" selection-start-line="113" selection-start-column="10" selection-end-line="113" selection-end-column="10" />
+        <state relative-caret-position="299">
+          <caret line="114" column="61" selection-start-line="114" selection-start-column="61" selection-end-line="114" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2372#2380#0" expanded="true" />
@@ -1112,21 +1087,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Driver.java">
+    <entry file="file://$PROJECT_DIR$/src/NounClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <marker date="1506367301066" expanded="true" signature="641:715" placeholder="..." />
-          </folding>
+        <state relative-caret-position="442">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SentencePluraliserGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/VerbClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="375" column="9" selection-start-line="375" selection-start-column="9" selection-end-line="375" selection-end-column="9" />
+        <state relative-caret-position="112">
+          <caret line="405" column="0" selection-start-line="405" selection-start-column="0" selection-end-line="405" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DriverDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SentenceScrabbleGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SentencePluraliser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-177">
+          <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

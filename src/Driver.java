@@ -10,11 +10,11 @@ public class Driver {
 //            sgc.generateNVsentence();
 //        }
 
-        SentencePluraliser sp;
-        for(int i = 0; i< 50; i++){
-            sp = new SentencePluraliser();
-            sp.threeWordSenetence();
-        }
+//        SentencePluraliser sp;
+//        for(int i = 0; i< 50; i++){
+//            sp = new SentencePluraliser();
+//            sp.threeWordSenetence();
+//        }
 
 //        VerbCARPExtension vce = new VerbCARPExtension();
 //        vce.changeCPrefixExersize();
@@ -22,8 +22,8 @@ public class Driver {
 //        VerbSCModifier vm = new VerbSCModifier();
 //        vm.runExercise();
 
-//        SentenceScrabble ss = new SentenceScrabble();
-//        ss.init();
+        SentenceScrabble ss = new SentenceScrabble();
+        ss.runExercise();
 
 //        NounPlural np = new NounPlural();
 //        np.runExercise();
