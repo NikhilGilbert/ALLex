@@ -31,8 +31,14 @@ public class NounClass {
         if ((Noun.startsWith("um")) && Noun.charAt(2) != 'u' && nc.equals("1")){
             changedNounForm = "aba" + Noun.substring(2, Noun.length());
         }
+        else if ((Noun.startsWith("Um")) && Noun.charAt(2) != 'u' && nc.equals("1")){
+            changedNounForm = "Aba" + Noun.substring(2, Noun.length());
+        }
         else if (Noun.startsWith("u") && nc.equals("1a")){
             changedNounForm = "o" + Noun.substring(1, Noun.length());
+        }
+        else if (Noun.startsWith("U") && nc.equals("1a")){
+            changedNounForm = "O" + Noun.substring(1, Noun.length());
         }
         else if (Noun.startsWith("u") && nc.equals("2a")){
             changedNounForm = "o" + Noun.substring(1, Noun.length());
@@ -99,7 +105,6 @@ public class NounClass {
                 continue;
             }
         }
-        System.out.println(currentLine);
 
         if (currentLine.contains("<1>")){
             nounClass = "1";

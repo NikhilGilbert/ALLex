@@ -24,20 +24,21 @@ public class SentencePluraliser {
 
         pluralisedSentence = nc.pluraliseNoun(nc.findNounClass()) + " " + vc.pluraliseVerb(nc.findNounClass());
 
-        System.out.println("Can you pluralise this sentence?: " + nvSentence);
+        System.out.println(nvSentence);
         System.out.println(pluralisedSentence);
 
-        Scanner sc = new Scanner(System.in);
-        String answer = sc.nextLine();
-
-        if (answer.equals(pluralisedSentence)){
-            System.out.println("Right");
-            return 1;
-        }
-        else {
-            System.out.println("Wrong");
-            return -1;
-        }
+//        Scanner sc = new Scanner(System.in);
+//        String answer = sc.nextLine();
+//
+//        if (answer.equals(pluralisedSentence)){
+//            System.out.println("Right");
+//            return 1;
+//        }
+//        else {
+//            System.out.println("Wrong");
+//            return -1;
+//        }
+        return 0;
     }
 
     public int threeWordSenetence() throws IOException {
@@ -49,19 +50,17 @@ public class SentencePluraliser {
 
         System.out.println(nvnSentence);
         String[] splitter = nvnSentence.split(" ");
+
         nc.setNoun(splitter[0]);
         vc.setVerb(splitter[1]);
         nc2.setNoun(splitter[2]);
-        System.out.println(splitter[2]);
 
-        //nc.pluraliseNoun(nc.findNounClass());
-        //vc.pluraliseVerb(nc.findNounClass());
-        nc2.pluraliseNoun(nc2.findNounClass());
+        String nounClassNumber = nc.findNounClass();
 
-        //pluralisedSentence = nc.pluraliseNoun(nc.findNounClass()) + " " + vc.pluraliseVerb(nc.findNounClass() +
-        //        nc2.pluraliseNoun(nc2.findNounClass()));
+        pluralisedSentence = nc.pluraliseNoun(nounClassNumber) + " " + vc.pluraliseVerb(nounClassNumber) + " " +
+                nc2.pluraliseNoun(nc2.findNounClass());
 
-        //System.out.println(pluralisedSentence);
+        System.out.println(pluralisedSentence);
         return 0;
     }
 

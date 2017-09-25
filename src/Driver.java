@@ -3,14 +3,18 @@ import java.io.IOException;
 public class Driver {
     public static void main (String[] args) throws IOException {
 
-//        SentenceGeneratorClass sgc = new SentenceGeneratorClass();
+//        SentenceGeneratorClass sgc ;
 //
 //        for (int i= 0; i < 50; i++){
-//            sgc.generateNVNsentence();
+//            sgc = new SentenceGeneratorClass();
+//            sgc.generateNVsentence();
 //        }
 
-        SentencePluraliser sp = new SentencePluraliser();
-        sp.threeWordSenetence();
+        SentencePluraliser sp;
+        for(int i = 0; i< 50; i++){
+            sp = new SentencePluraliser();
+            sp.threeWordSenetence();
+        }
 
 //        VerbCARPExtension vce = new VerbCARPExtension();
 //        vce.changeCPrefixExersize();

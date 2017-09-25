@@ -371,6 +371,10 @@ public class VerbClass {
 
         /* Each of these modifiers correspond to a noun class. This will be used to change the verb to make it adhere
          the changes of the */
+        if (Verb.startsWith("a") || Verb.startsWith("i") || Verb.startsWith("o") || Verb.startsWith("u") || Verb.startsWith("e")){
+            Verb = Verb.substring(1, Verb.length());
+        }
+
         if (precedingNounClass.equals("1")){
             modifiedVerb = "u" + Verb;
         }
@@ -429,7 +433,7 @@ public class VerbClass {
         }
         else if (nounClass.equals("3")){
             if (Verb.startsWith("u")){
-                Verb = Verb.substring(1, Verb.length());
+                Verb = Verb.substring(2, Verb.length());
             }
             pluralisedVerb = "i" + Verb;
         }
@@ -441,7 +445,7 @@ public class VerbClass {
         }
         else if (nounClass.equals("7")){
             if (Verb.startsWith("si")){
-                Verb = Verb.substring(1, Verb.length());
+                Verb = Verb.substring(2, Verb.length());
             }
             pluralisedVerb = "zi" + Verb;
         }
@@ -453,7 +457,7 @@ public class VerbClass {
         }
         else if (nounClass.equals("11")){
             if (Verb.startsWith("lu")){
-                Verb = Verb.substring(1, Verb.length());
+                Verb = Verb.substring(2, Verb.length());
             }
             pluralisedVerb = "zi" + Verb;
         }
