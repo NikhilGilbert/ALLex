@@ -10,7 +10,7 @@ public class VerbPluralGen {
         sc = new SentenceGeneratorClass();
     }
 
-    public int twoWordSentence() throws IOException {
+    public String verbPluralExercise() throws IOException {
         NounClass nc = new NounClass();
         VerbClass vc = new VerbClass();
         String nvSentence = sc.generateNVsentence();
@@ -25,10 +25,13 @@ public class VerbPluralGen {
         questionSentence = nc.pluraliseNoun(nounClassNumber) + " " + vc.getVerb();
         String answerSentence = nc.pluraliseNoun(nounClassNumber) + " " + vc.pluraliseVerb(nc.findNounClass());
 
-        System.out.println("2," + annotate(questionSentence) + ",Identify_v the change needed to make the verb pluralized and rewrite_v " +
-                "the sentence with this change.," + annotate(answerSentence));
+        //System.out.println("2," + annotate(questionSentence) + ",Identify_v the change needed to make the verb pluralized and rewrite_v " +
+                //"the sentence with this change.," + annotate(answerSentence));
 
-        return 0;
+        String output = "2," + annotate(questionSentence) + ",Identify_v the change needed to make the verb pluralized and rewrite_v " +
+                "the sentence with this change.," + annotate(answerSentence);
+
+        return output;
     }
 
     public String annotate(String sentence){

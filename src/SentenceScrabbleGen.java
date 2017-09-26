@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Created by Admin on 2017-09-25.
  */
 public class SentenceScrabbleGen{
-    public int sentenceScrabbleExercise() throws IOException {
+    public String sentenceScrabbleExercise() throws IOException {
         SentenceGeneratorClass sgc = new SentenceGeneratorClass();
         String sentence = annotate(sgc.generateNVNsentence());
         String[] shuffle = sentence.split(" ");
@@ -24,7 +24,10 @@ public class SentenceScrabbleGen{
         System.out.println("4," + unpackList(mixedList) + ",Rearrange_v the given words so that the sentence " +
                 "is grammatically and semantically correct.," + unpackList(normalList));
 
-        return 0;
+        String output = "4," + unpackList(mixedList) + ",Rearrange_v the given words so that the sentence " +
+                "is grammatically and semantically correct.," + unpackList(normalList);
+
+        return output;
     }
 
     public String unpackList(ArrayList<String> list){

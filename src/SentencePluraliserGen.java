@@ -29,7 +29,7 @@ public class SentencePluraliserGen {
 //        return 0;
 //    }
 
-    public int threeWordSenetence() throws IOException {
+    public String sentencePluraliseExercise() throws IOException {
         NounClass nc = new NounClass();
         VerbClass vc = new VerbClass();
         NounClass nc2 = new NounClass();
@@ -50,7 +50,11 @@ public class SentencePluraliserGen {
 
         System.out.println("3," + annotate(nvnSentence) + ",Analyze_v and rewrite_v the sentence so that the noun and verb are plural.," +
                 annotate(pluralisedSentence));
-        return 0;
+
+        String output = "3," + annotate(nvnSentence) + ",Analyze_v and rewrite_v the sentence so that the noun and verb are plural.," +
+                annotate(pluralisedSentence);
+
+        return output;
     }
 
     public String annotate(String sentence){

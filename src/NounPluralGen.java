@@ -10,7 +10,7 @@ public class NounPluralGen {
         sc = new SentenceGeneratorClass();
     }
 
-    public int twoWordSentence() throws IOException {
+    public String nounPluralExercises() throws IOException {
         NounClass nc = new NounClass();
         VerbClass vc = new VerbClass();
         String nvSentence = sc.generateNVsentence();
@@ -28,7 +28,10 @@ public class NounPluralGen {
         System.out.println("1," + annotate(questionSentence) + ",Identify_v the change needed to make the noun a plural and rewrite_v the " +
                 "sentence with this change.," + annotate(answerSentence));
 
-        return 0;
+        String output = "1," + annotate(questionSentence) + ",Identify_v the change needed to make the noun a plural and rewrite_v the " +
+                "sentence with this change.," + annotate(answerSentence);
+
+        return output;
     }
 
     public String annotate(String sentence){
