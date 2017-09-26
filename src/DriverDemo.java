@@ -6,8 +6,8 @@ import java.io.IOException;
 public class DriverDemo {
     public static void main(String[] args) throws IOException {
         for(int i = 0; i< 20; i++){
-            SentenceScrabbleGen ssg = new SentenceScrabbleGen();
-            ssg.sentenceScrabbleExercise();
+            SentencePluraliserGen spg = new SentencePluraliserGen();
+            spg.threeWordSenetence();
         }
     }
 }

@@ -22,8 +22,8 @@ public class Driver {
 //        VerbSCModifier vm = new VerbSCModifier();
 //        vm.runExercise();
 
-        SentenceScrabble ss = new SentenceScrabble();
-        ss.runExercise();
+//        SentenceScrabble ss = new SentenceScrabble();
+//        ss.runExercise();
 
 //        NounPlural np = new NounPlural();
 //        np.runExercise();

@@ -20,10 +20,6 @@ public class VerbClass {
         return Verb;
     }
 
-    public String getAnnotatedVerb(){
-        return Verb + "_v";
-    }
-
     public ArrayList<String> getVerbGrammar(String componentIndex){
         // Slot index numbers: NEG-0 SC-1 ASP-2 MOD-3 OC-4 VR-5 C-6 A-7 R-8 P-9
         ArrayList<String> copy = null;
