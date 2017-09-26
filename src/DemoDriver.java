@@ -5,11 +5,6 @@ import java.io.IOException;
  */
 public class DemoDriver {
     public static void main(String[] args) throws IOException {
-        SentenceScrabbleGen sentenceScrabbleGen;
-        for (int i = 0; i<50; i++){
-            sentenceScrabbleGen = new SentenceScrabbleGen();
-            sentenceScrabbleGen.sentenceScrabbleExercise();
-        }
 
     }
 }
