@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class SentenceScrabbleGen{
     public int sentenceScrabbleExercise() throws IOException {
         SentenceGeneratorClass sgc = new SentenceGeneratorClass();
-        String sentence = sgc.generateNVNsentence();
+        String sentence = annotate(sgc.generateNVNsentence());
         String[] shuffle = sentence.split(" ");
 
         ArrayList<String> normalList = new ArrayList<>();
@@ -36,9 +36,17 @@ public class SentenceScrabbleGen{
             else if (i==list.size()-1){
                 unpackedList += list.get(i);
             }
-
         }
         return unpackedList;
+    }
+
+    public String annotate(String sentence){
+        String [] plainSentence = sentence.split(" ");
+        plainSentence[0] = plainSentence[0] + "_n";
+        plainSentence[1] = plainSentence[1] + "_v";
+        plainSentence[2] = plainSentence[2] + "_n";
+
+        return plainSentence[0] + " " + plainSentence[1] + " " + plainSentence[2];
     }
 
 }
