@@ -1,5 +1,5 @@
 umfana <1;s> ALL_v;e_dumisa;e_cisha
-umlungu <1;s> ALL_v;e_dumisa;e_cisha
+                                    umlungu <1;s> ALL_v;e_dumisa;e_cisha
 Umntwana <1;s> ALL_v;e_dumisa;e_cisha
 umzali <1;s> ALL_v;e_dumisa;e_cisha
 umzala <1;s> ALL_v;e_dumisa;e_cisha
@@ -35,7 +35,7 @@ umyihlomkhulu <1a;s> ALL_v;e_dumisa;e_cisha
 udadewethu <1a;s> ALL_v;e_dumisa;e_cisha
 udadewenu <1a;s> ALL_v;e_dumisa;e_cisha
 udadewabo <1a;s> ALL_v;e_dumisa;e_cisha
-u-anti <1a;s> ALL_v;e_dumisa;e_cisha
+uAnti <1a;s> ALL_v;e_dumisa;e_cisha
 umalume <1a;s> ALL_v;e_dumisa;e_cisha
 uthisha <1a;s> ALL_v;e_dumisa;e_cisha
 udokotela <1a;s> ALL_v;e_dumisa;e_cisha

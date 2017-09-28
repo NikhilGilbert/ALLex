@@ -5,18 +5,16 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 /**
  * Created by Admin on 2017-09-26.
  */
 public class DemoDriver {
-    public static void main(String[] args) throws IOException {
-        Scanner sc = new Scanner(System.in);
-        boolean verbPlural = sc.nextBoolean();
-        boolean nounPlural = sc.nextBoolean();
-        boolean sentencePlural = sc.nextBoolean();
-        boolean sentenceScrabble = sc.nextBoolean();
+    public void GeneratorMethod(boolean vP, boolean nP, boolean sP, boolean sS) throws IOException {
+        boolean verbPlural = vP;
+        boolean nounPlural = nP;
+        boolean sentencePlural = sP;
+        boolean sentenceScrabble = sS;
 
         List<String> lines = new ArrayList<>();
 
@@ -51,6 +49,5 @@ public class DemoDriver {
 
         Path file = Paths.get("questions.txt");
         Files.write(file, lines, Charset.forName("UTF-8"));
-
     }
 }
