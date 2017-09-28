@@ -29,9 +29,6 @@ public class SentencePluraliserGen {
         pluralisedSentence = nc.pluraliseNoun(nounClassNumber) + " " + vc.pluraliseVerb(nounClassNumber) + " " +
                 nc2.getNoun();
 
-        System.out.println("3," + annotate(nvnSentence) + ",Analyze_v and rewrite_v the sentence so that the noun and verb are plural.," +
-                annotate(pluralisedSentence));
-
         String output = "3," + annotate(nvnSentence) + ",Analyze_v and rewrite_v the sentence so that the noun and verb are plural.," +
                 annotate(pluralisedSentence);
 
