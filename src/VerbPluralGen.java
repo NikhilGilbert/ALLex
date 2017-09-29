@@ -25,9 +25,6 @@ public class VerbPluralGen {
         questionSentence = nc.pluraliseNoun(nounClassNumber) + " " + vc.getVerb();
         String answerSentence = nc.pluraliseNoun(nounClassNumber) + " " + vc.pluraliseVerb(nc.findNounClass());
 
-        //System.out.println("2," + annotate(questionSentence) + ",Identify_v the change needed to make the verb pluralized and rewrite_v " +
-                //"the sentence with this change.," + annotate(answerSentence));
-
         String output = "2," + annotate(questionSentence) + ",Identify_v the change needed to make the verb pluralized and rewrite_v " +
                 "the sentence with this change.," + annotate(answerSentence);
 
