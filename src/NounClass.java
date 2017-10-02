@@ -171,7 +171,6 @@ public class NounClass {
             return nounClass;
         }
         else{
-            System.out.println("Another noun class");
             return "Noun class not found.";
         }
     }

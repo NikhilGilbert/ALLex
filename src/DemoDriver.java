@@ -10,11 +10,15 @@ import java.util.List;
  * Created by Admin on 2017-09-26.
  */
 public class DemoDriver {
-    public void GeneratorMethod(boolean vP, boolean nP, boolean sP, boolean sS) throws IOException {
+    public static void main(String[] args) throws IOException {
+        GeneratorMethod(false, false, false, false, true);
+    }
+    public static void GeneratorMethod(boolean vP, boolean nP, boolean sP, boolean sS, boolean nS) throws IOException {
         boolean verbPlural = vP;
         boolean nounPlural = nP;
         boolean sentencePlural = sP;
         boolean sentenceScrabble = sS;
+        boolean nounSingular = nS;
 
         List<String> lines = new ArrayList<>();
 
@@ -44,6 +48,13 @@ public class DemoDriver {
             for (int i = 0; i<50; i++){
                 ssg = new SentenceScrabbleGen();
                 lines.add(ssg.sentenceScrabbleExercise());
+            }
+        }
+        if(nounSingular){
+            NounSingularGen nsg;
+            for (int i = 0; i<50; i++){
+                nsg = new NounSingularGen();
+                lines.add(nsg.nounSingularExercises());
             }
         }
 
