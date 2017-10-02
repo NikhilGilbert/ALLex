@@ -21,8 +21,6 @@ public class SentenceScrabbleGen{
         }
 
         Collections.shuffle(mixedList);
-        System.out.println("4," + unpackList(mixedList) + ",Rearrange_v the given words so that the sentence " +
-                "is grammatically and semantically correct.," + unpackList(normalList));
 
         String output = "4," + unpackList(mixedList) + ",Rearrange_v the given words so that the sentence " +
                 "is grammatically and semantically correct.," + unpackList(normalList);
