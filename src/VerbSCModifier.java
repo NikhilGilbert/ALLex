@@ -29,8 +29,6 @@ public class VerbSCModifier {
 
     public String[] changeNegativeConcord(){
         ArrayList<String> negativeForm = vc.generateSpecificVerbForm(1, 0, 0, 0, 0, 1, 0, 0, 0, 0);
-        System.out.println("Can you change this verbs form into its positive concord?: "
-                + vc.concatenateVerb(negativeForm));
         String question = vc.concatenateVerb(negativeForm);
 
         String positiveConcord = findPositiveConcord(negativeForm.get(0));
@@ -46,8 +44,6 @@ public class VerbSCModifier {
 
     public String[] changePostiveConcord(){
         ArrayList<String> positiveForm = vc.generateSpecificVerbForm(0, 1, 0, 0, 0, 1, 0, 0, 0, 0);
-        System.out.println("Can you change this verbs form into its negative concord?: "
-                + vc.concatenateVerb(positiveForm));
         String question = vc.concatenateVerb(positiveForm);
 
         String negativeConcord = findNegativeConcord(positiveForm.get(0));
