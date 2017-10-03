@@ -2,7 +2,8 @@ import java.io.IOException;
 import java.util.Scanner;
 
 /**
- * Created by Admin on 2017-09-26.
+ * Created by Nikhil Gilbert on 2017-09-26.
+ * The pluralise a sentence exercise
  */
 public class SentencePluraliserGen {
     SentenceGeneratorClass sc;

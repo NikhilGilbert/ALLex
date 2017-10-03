@@ -20,6 +20,7 @@ public class NounClass {
         return Noun;
     }
 
+    // This is the primary method of the class, it is essentially the main function of the class, and applies the rule by Byamugisha et al.
     public String pluraliseNoun(String nc){
 
         String changedNounForm = null;
@@ -85,6 +86,7 @@ public class NounClass {
         return changedNounForm;
     }
 
+    // This method essentially searches the noun corpus for the sepcified word and returns its class
     public String findNounClass() throws IOException {
         // If using a better corpus. We can use this to look up nouns for an unannotated corpus
         FileReader fr = new FileReader("NounCorpus.txt");

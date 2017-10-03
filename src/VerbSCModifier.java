@@ -16,7 +16,7 @@ public class VerbSCModifier {
     public String verbSCModifier(){
         Random rand = new Random();
         boolean exerciseChoice = rand.nextBoolean();
-
+        // Selects a question type at random and chooses to present the user with that quesion
         if(exerciseChoice){
             String[] questionSet = changePostiveConcord();
             return questionSet[0] + "," + questionSet[1] + "," + questionSet[2] + "," + questionSet[3];
@@ -27,6 +27,7 @@ public class VerbSCModifier {
         }
     }
 
+    // Method for changing negatives
     public String[] changeNegativeConcord(){
         ArrayList<String> negativeForm = vc.generateSpecificVerbForm(1, 0, 0, 0, 0, 1, 0, 0, 0, 0);
         String question = vc.concatenateVerb(negativeForm);
@@ -42,6 +43,7 @@ public class VerbSCModifier {
         return questionAndAnswer;
     }
 
+    // Methods for changing positives
     public String[] changePostiveConcord(){
         ArrayList<String> positiveForm = vc.generateSpecificVerbForm(0, 1, 0, 0, 0, 1, 0, 0, 0, 0);
         String question = vc.concatenateVerb(positiveForm);
@@ -57,6 +59,7 @@ public class VerbSCModifier {
         return questionAndAnswer;
     }
 
+    // Helper methods to find opposite concord
     public String findPositiveConcord(String negativeConcord){
         for (int i = 0; i<negativeConcordList.length; i++){
             if (negativeConcord.equals(negativeConcordList[i])){

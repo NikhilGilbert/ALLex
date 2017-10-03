@@ -1,7 +1,7 @@
 import java.io.IOException;
 
 /**
- * Created by Admin on 2017-09-26.
+ * Created by Nikhil Gilbert on 2017-09-26.
  */
 public class VerbPluralGen {
     SentenceGeneratorClass sc;

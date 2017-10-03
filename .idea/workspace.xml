@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f08de6e-65fd-40b7-a94f-3d88ee988464" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/VerbSCModifierTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ALLexProject/VerbClass.class" afterPath="$PROJECT_DIR$/out/production/ALLexProject/VerbClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ALLexProject/VerbSCModifier.class" afterPath="$PROJECT_DIR$/out/production/ALLexProject/VerbSCModifier.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Admin.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Admin.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DemoDriver.java" afterPath="$PROJECT_DIR$/src/DemoDriver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NounClass.java" afterPath="$PROJECT_DIR$/src/NounClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NounPluralGen.java" afterPath="$PROJECT_DIR$/src/NounPluralGen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NounSingularGen.java" afterPath="$PROJECT_DIR$/src/NounSingularGen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SentenceGeneratorClass.java" afterPath="$PROJECT_DIR$/src/SentenceGeneratorClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SentencePluraliserGen.java" afterPath="$PROJECT_DIR$/src/SentencePluraliserGen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SentenceScrabbleGen.java" afterPath="$PROJECT_DIR$/src/SentenceScrabbleGen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VerbClass.java" afterPath="$PROJECT_DIR$/src/VerbClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VerbPluralGen.java" afterPath="$PROJECT_DIR$/src/VerbPluralGen.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VerbSCModifier.java" afterPath="$PROJECT_DIR$/src/VerbSCModifier.java" />
     </list>
     <ignored path="ALLex.iws" />
@@ -27,34 +36,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="VerbSCModifier.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/VerbSCModifier.java">
+      <file leaf-file-name="VerbPluralGen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/VerbPluralGen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="114" />
-              <folding>
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#450#451#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VerbSCModifierTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/VerbSCModifierTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="51">
+              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SentencePluraliserGenTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/SentencePluraliserGenTest.java">
+      <file leaf-file-name="NounSingularGen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NounSingularGen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="113">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VerbSCModifier.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/VerbSCModifier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NounPluralGen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NounPluralGen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="133" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SentenceGeneratorClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SentenceGeneratorClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="230" column="85" selection-start-line="230" selection-start-column="85" selection-end-line="230" selection-end-column="85" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SentencePluraliserGen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SentencePluraliserGen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -63,8 +99,18 @@
       <file leaf-file-name="VerbClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/VerbClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2510">
-              <caret line="454" column="38" selection-start-line="454" selection-start-column="38" selection-end-line="454" selection-end-column="38" />
+            <state relative-caret-position="34">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SentenceScrabbleGen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SentenceScrabbleGen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -109,29 +155,29 @@
         <option value="$PROJECT_DIR$/VerbChain.txt" />
         <option value="$PROJECT_DIR$/src/SentenceScrabble.java" />
         <option value="$PROJECT_DIR$/src/SentencePluraliser.java" />
-        <option value="$PROJECT_DIR$/src/SentenceGeneratorClass.java" />
         <option value="$PROJECT_DIR$/src/Driver.java" />
         <option value="$PROJECT_DIR$/src/DriverDemo.java" />
         <option value="$PROJECT_DIR$/src/DriverGen.java" />
         <option value="$PROJECT_DIR$/NounCorpus.txt" />
         <option value="$PROJECT_DIR$/NounChainList.txt" />
         <option value="$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/requests/ClassRequest.class" />
-        <option value="$PROJECT_DIR$/src/NounPluralGen.java" />
         <option value="$PROJECT_DIR$/tests/SentencePluraliserGenTest.java" />
-        <option value="$PROJECT_DIR$/src/SentencePluraliserGen.java" />
-        <option value="$PROJECT_DIR$/src/VerbPluralGen.java" />
         <option value="$PROJECT_DIR$/tests/VerbPluralGenTest.java" />
-        <option value="$PROJECT_DIR$/src/NounClass.java" />
-        <option value="$PROJECT_DIR$/src/NounSingularGen.java" />
         <option value="$PROJECT_DIR$/questions.txt" />
         <option value="$PROJECT_DIR$/tests/NounPluralGenTest.java" />
-        <option value="$PROJECT_DIR$/tests/NounSingularGenTest.java" />
-        <option value="$PROJECT_DIR$/src/SentenceScrabbleGen.java" />
         <option value="$PROJECT_DIR$/tests/SentenceScrabbleGenTest.java" />
-        <option value="$PROJECT_DIR$/src/VerbClass.java" />
-        <option value="$PROJECT_DIR$/src/DemoDriver.java" />
-        <option value="$PROJECT_DIR$/src/VerbSCModifier.java" />
         <option value="$PROJECT_DIR$/tests/VerbSCModifierTest.java" />
+        <option value="$PROJECT_DIR$/tests/NounSingularGenTest.java" />
+        <option value="$PROJECT_DIR$/src/DemoDriver.java" />
+        <option value="$PROJECT_DIR$/src/NounClass.java" />
+        <option value="$PROJECT_DIR$/src/NounPluralGen.java" />
+        <option value="$PROJECT_DIR$/src/NounSingularGen.java" />
+        <option value="$PROJECT_DIR$/src/SentenceGeneratorClass.java" />
+        <option value="$PROJECT_DIR$/src/SentencePluraliserGen.java" />
+        <option value="$PROJECT_DIR$/src/VerbClass.java" />
+        <option value="$PROJECT_DIR$/src/SentenceScrabbleGen.java" />
+        <option value="$PROJECT_DIR$/src/VerbPluralGen.java" />
+        <option value="$PROJECT_DIR$/src/VerbSCModifier.java" />
       </list>
     </option>
   </component>
@@ -191,20 +237,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ALLexProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ALLex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ALLexProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -827,39 +859,53 @@
       <option name="project" value="LOCAL" />
       <updated>1506991169188</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Verb SC tests are working, tracers removed from the class">
+      <created>1506995580189</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1506995580189</updated>
+    </task>
+    <task id="LOCAL-00030" summary="changed certain tests">
+      <created>1506995770686</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1506995770686</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_ALLexProject - 2017.10.03 at 03h 43m 35s.xml">
+    <history-entry file="All_in_ALLexProject - 2017.10.03 at 03h 54m 21s.xml">
       <configuration name="All in ALLexProject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_ALLexProject - 2017.10.03 at 03h 50m 58s.xml">
+    <history-entry file="All_in_ALLexProject - 2017.10.03 at 03h 55m 11s.xml">
       <configuration name="All in ALLexProject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_ALLexProject - 2017.10.03 at 03h 52m 10s.xml">
+    <history-entry file="All_in_ALLexProject - 2017.10.03 at 03h 55m 19s.xml">
       <configuration name="All in ALLexProject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VerbSCModifierTest - 2017.10.03 at 03h 36m 18s.xml">
-      <configuration name="VerbSCModifierTest" configurationId="JUnit" />
+    <history-entry file="All_in_ALLexProject - 2017.10.03 at 03h 55m 21s.xml">
+      <configuration name="All in ALLexProject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VerbSCModifierTest - 2017.10.03 at 03h 37m 26s.xml">
-      <configuration name="VerbSCModifierTest" configurationId="JUnit" />
+    <history-entry file="All_in_ALLexProject - 2017.10.03 at 03h 55m 23s.xml">
+      <configuration name="All in ALLexProject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VerbSCModifierTest - 2017.10.03 at 03h 38m 01s.xml">
-      <configuration name="VerbSCModifierTest" configurationId="JUnit" />
+    <history-entry file="All_in_ALLexProject - 2017.10.03 at 03h 55m 24s.xml">
+      <configuration name="All in ALLexProject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VerbSCModifierTest - 2017.10.03 at 03h 38m 08s.xml">
-      <configuration name="VerbSCModifierTest" configurationId="JUnit" />
+    <history-entry file="All_in_ALLexProject - 2017.10.03 at 03h 55m 37s.xml">
+      <configuration name="All in ALLexProject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VerbSCModifierTest - 2017.10.03 at 03h 38m 09s.xml">
-      <configuration name="VerbSCModifierTest" configurationId="JUnit" />
+    <history-entry file="All_in_ALLexProject - 2017.10.03 at 03h 55m 39s.xml">
+      <configuration name="All in ALLexProject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VerbSCModifierTest - 2017.10.03 at 03h 38m 11s.xml">
-      <configuration name="VerbSCModifierTest" configurationId="JUnit" />
+    <history-entry file="All_in_ALLexProject - 2017.10.03 at 03h 55m 42s.xml">
+      <configuration name="All in ALLexProject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VerbSCModifierTest - 2017.10.03 at 03h 39m 15s.xml">
-      <configuration name="VerbSCModifierTest" configurationId="JUnit" />
+    <history-entry file="All_in_ALLexProject - 2017.10.03 at 03h 55m 44s.xml">
+      <configuration name="All in ALLexProject" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -878,7 +924,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3251634" sideWeight="0.49394855" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19969743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19969743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -904,8 +950,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added two new corpus resources, both of these are specific databases to be used for the sentence generators" />
-    <MESSAGE value="Added functionality to noun and verb classes. They can both return the word that they contain in an annotated form, also added functionality in the sentence generator constructor so that it can load stuff from the Noun Chain Database." />
     <MESSAGE value="Added functionality to load up the VerbChain" />
     <MESSAGE value="Got the sentence generator to return an adequate noun and verb, works with one method. Need to restructure and ensure that the code works more efficiently. Perhaps create a method for commonly used code" />
     <MESSAGE value="SentenceGenerator NV sentences are complete, accomodated NounClass and VerbClass to deal with string identifiers for the nounclassfinder method, still need to implement some rules for 1a and 2a noun classes as well as 14." />
@@ -929,7 +973,9 @@
     <MESSAGE value="Working Noun Plural unit test for the class" />
     <MESSAGE value="Changed tracers in scrabble class, wrote unit test for scrabble class" />
     <MESSAGE value="Modified Verb SC to work with complexity measure framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified Verb SC to work with complexity measure framework" />
+    <MESSAGE value="Verb SC tests are working, tracers removed from the class" />
+    <MESSAGE value="changed certain tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed certain tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1118,50 +1164,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SentencePluraliserGen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VerbPluralGen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="68" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NounSingular.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-380">
           <caret line="98" column="40" selection-start-line="98" selection-start-column="40" selection-end-line="98" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NounPluralGen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/NounSingularGenTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NounSingularGen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1182,50 +1188,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NounClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SentenceGeneratorClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1802">
-          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SentenceScrabbleGen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/questions.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DemoDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VerbClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2510">
-          <caret line="454" column="38" selection-start-line="454" selection-start-column="38" selection-end-line="454" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1238,21 +1204,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/VerbSCModifier.java">
+    <entry file="file://$PROJECT_DIR$/tests/VerbSCModifierTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="114" />
-          <folding>
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="952">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/VerbSCModifierTest.java">
+    <entry file="file://$PROJECT_DIR$/tests/NounSingularGenTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="306">
+          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DemoDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NounClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="88" column="67" selection-start-line="88" selection-start-column="67" selection-end-line="88" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NounPluralGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="133" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SentenceGeneratorClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="230" column="85" selection-start-line="230" selection-start-column="85" selection-end-line="230" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NounSingularGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SentencePluraliserGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VerbClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SentenceScrabbleGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VerbPluralGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VerbSCModifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
           <folding />
         </state>
       </provider>

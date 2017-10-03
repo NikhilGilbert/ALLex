@@ -7,8 +7,6 @@ import java.util.Random;
 
 public class VerbClass {
 
-    //add annotation mechanism
-
     private HashMap<String, ArrayList<String>> VerbGrammar =new HashMap<>();
     String Verb;
 
@@ -357,8 +355,6 @@ public class VerbClass {
     public String nounClassModifier(String precedingNounClass){
         String modifiedVerb = null;
 
-        // FLAG: Create checks in the sentence to avoid user error
-
         /* Each of these modifiers correspond to a noun class. This will be used to change the verb to make it adhere
          the changes of the */
         if (Verb.startsWith("a") || Verb.startsWith("i") || Verb.startsWith("o") || Verb.startsWith("u") || Verb.startsWith("e")){
@@ -399,8 +395,6 @@ public class VerbClass {
         String pluralisedVerb = null;
         NounClass nc = new NounClass(precedingNoun);
         String nounClass = nc.findNounClass();
-
-        // FLAG: put verb through the noun class modifier or add things to their strings
 
         // These rules can be extended with further study of the patterns
         if (nounClass.equals("1")){

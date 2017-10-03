@@ -8,11 +8,12 @@ import java.util.Random;
 
 public class SentenceGeneratorClass{
 
+    // These Hashmaps store the Noun Chain List and Verb Chain respectively
     private HashMap<String, ArrayList<String>> NounConsumables = new HashMap<>();
     private HashMap<String, ArrayList<String>> VerbConsumables = new HashMap<>();
 
     public SentenceGeneratorClass(){
-
+// This section of the code loads the Lists from the corpus into the Hashmaps
         try{
             FileReader fr = new FileReader("NounChainList.txt");
             BufferedReader br = new BufferedReader(fr);
@@ -73,6 +74,7 @@ public class SentenceGeneratorClass{
         String [] splitKey = key.split(" ");
         nc.setNoun(splitKey[0]);
 
+        // Loads all of the exceptions, words that are inadequate to be used after a noun
         ArrayList<String> exceptionList = new ArrayList<>();
         ArrayList<String> approvedVerbs = NounConsumables.get(key);
 
@@ -89,6 +91,7 @@ public class SentenceGeneratorClass{
         boolean exclusionVerb = true;
         List<String> verbKeys = new ArrayList<String>(VerbConsumables.keySet());
 
+        // We need to keep looking for the noun for as long as we have an exception
         while(exclusionVerb == true){
             if (useableVerb.startsWith("ALL_v")){
                 String verbKey = verbKeys.get(rand.nextInt(verbKeys.size()));
@@ -111,7 +114,7 @@ public class SentenceGeneratorClass{
         }
         vc.setVerb(useableVerb);
         vc.setVerb(vc.nounClassModifier(nc.findNounClass()));
-        //System.out.println(nc.getNoun() + " " + vc.getVerb());
+
         String NVsentence = nc.getNoun() + " " + vc.getVerb();
         return NVsentence;
     }
@@ -172,9 +175,9 @@ public class SentenceGeneratorClass{
         ArrayList<String> exclusionList = new ArrayList<>();
 
         List<String> VerbConsumablesKeys = new ArrayList<String>(VerbConsumables.keySet());
-        //System.out.println(vc.getVerb());
+
         for (String s: VerbConsumablesKeys){
-            if (s.startsWith(vc.getVerb())){ //flag
+            if (s.startsWith(vc.getVerb())){
                 approvedNouns = VerbConsumables.get(s);
             }
         }
@@ -220,15 +223,12 @@ public class SentenceGeneratorClass{
 
         nc2.setNoun(useableNoun);
         vc.setVerb(vc.nounClassModifier(nc.findNounClass()));
-        //System.out.println(nc.getNoun() + " " + vc.getVerb() + " " + nc2.getNoun());
+
         String NVNSentence = nc.getNoun() + " " + vc.getVerb() + " " + nc2.getNoun();
         return NVNSentence;
     }
 
-    public String generateNVVsentence(){
-        return null;
-    }
-
+    // This methods retrieves a specified noun from the corpus, it is a helper method
     public String retrieveFromNounCorpus(String nounClass){
         String noun = null;
         ArrayList approvedNouns = new ArrayList();

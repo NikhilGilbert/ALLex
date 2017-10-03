@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.Scanner;
 
 /**
- * Created by Admin on 2017-09-25.
+ * Created by Nikhil Gilbert on 2017-09-25.
  */
 public class SentenceScrabbleGen{
     public String sentenceScrabbleExercise() throws IOException {

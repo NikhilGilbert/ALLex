@@ -1,11 +1,13 @@
 import java.io.IOException;
 
 /**
- * Created by Admin on 2017-10-02.
+ * Created by Nikhil Gilbert on 2017-10-02.
+ * This exercise requires the user to identify a nouns class and change it from plural to singular
  */
 public class NounSingularGen {
     SentenceGeneratorClass sc;
 
+    // The exercise method itself prepares the question and readies it for passing to the complexity measure framework
     public NounSingularGen(){
         sc = new SentenceGeneratorClass();
     }
@@ -22,6 +24,7 @@ public class NounSingularGen {
 
         String nounClassNumber = nc.findNounClass();
 
+        // This is using the grammar classes to perform the necessary transformations
         questionSentence = nc.pluraliseNoun(nounClassNumber) + " " + vc.getVerb();
         String answerSentence = nc.getNoun() + " " + vc.getVerb();
 
@@ -31,6 +34,7 @@ public class NounSingularGen {
         return output;
     }
 
+    // A helper method that annotates the sentence string so that its componets may be identified by the complexity measure framework
     public String annotate(String sentence){
         String [] plainSentence = sentence.split(" ");
 
