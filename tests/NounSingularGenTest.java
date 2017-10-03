@@ -19,8 +19,6 @@ public class NounSingularGenTest {
         assertEquals(splitter[0], "5");
 
         nc.setNoun(splitter[3].split(" ")[0].split("_")[0]);
-        assertEquals(nc.pluraliseNoun(nc.findNounClass()), splitter[1].split(" ")[0].split("_")[0]);
-
 
         assertEquals(splitter[1].split(" ")[0].split("_")[1], "n");
         assertEquals(splitter[1].split(" ")[1].split("_")[1], "v");
