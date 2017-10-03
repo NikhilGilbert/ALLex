@@ -452,7 +452,7 @@ public class VerbClass {
             pluralisedVerb = "zi" + Verb;
         }
         else if (nounClass.equals(("14"))){
-
+            // needs to be implemented
         }
         return pluralisedVerb;
     }

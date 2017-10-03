@@ -13,47 +13,52 @@ public class VerbSCModifier {
         vc = new VerbClass();
     }
 
-    public int changeNegativeConcord(){
+    public String verbSCModifier(){
+        Random rand = new Random();
+        boolean exerciseChoice = rand.nextBoolean();
+
+        if(exerciseChoice){
+            String[] questionSet = changePostiveConcord();
+            return questionSet[0] + "," + questionSet[1] + "," + questionSet[2] + "," + questionSet[3];
+        }
+        else{
+            String[] questionSet = changeNegativeConcord();
+            return questionSet[0] + "," + questionSet[1] + "," + questionSet[2] + "," + questionSet[3];
+        }
+    }
+
+    public String[] changeNegativeConcord(){
         ArrayList<String> negativeForm = vc.generateSpecificVerbForm(1, 0, 0, 0, 0, 1, 0, 0, 0, 0);
         System.out.println("Can you change this verbs form into its positive concord?: "
                 + vc.concatenateVerb(negativeForm));
-        Scanner sc = new Scanner(System.in);
-        String answer = sc.nextLine();
+        String question = vc.concatenateVerb(negativeForm);
 
         String positiveConcord = findPositiveConcord(negativeForm.get(0));
         negativeForm.set(0, positiveConcord);
         negativeForm.set(negativeForm.size()-1, "a");
 
-        if (answer.equals(vc.concatenateVerb(negativeForm))){
-            System.out.println("Correct!");
-            return 1;
-        }
-        else{
-            System.out.println("The correct answer is " + vc.concatenateVerb(negativeForm));
-            return -1;
-        }
+        String answer = vc.concatenateVerb(negativeForm);
+
+        String[] questionAndAnswer = {"6",question,"Can you change this verbs form into its positive concord?" ,answer};
+
+        return questionAndAnswer;
     }
 
-    public int changePostiveConcord(){
+    public String[] changePostiveConcord(){
         ArrayList<String> positiveForm = vc.generateSpecificVerbForm(0, 1, 0, 0, 0, 1, 0, 0, 0, 0);
         System.out.println("Can you change this verbs form into its negative concord?: "
                 + vc.concatenateVerb(positiveForm));
-
-        Scanner sc = new Scanner(System.in);
-        String answer = sc.nextLine();
+        String question = vc.concatenateVerb(positiveForm);
 
         String negativeConcord = findNegativeConcord(positiveForm.get(0));
         positiveForm.set(0, negativeConcord);
         positiveForm.set(positiveForm.size()-1, "i");
 
-        if (answer.equals(vc.concatenateVerb(positiveForm))){
-            System.out.println("Correct!");
-            return 1;
-        }
-        else{
-            System.out.println("The correct answer is " + vc.concatenateVerb(positiveForm));
-            return -1;
-        }
+        String answer = vc.concatenateVerb(positiveForm);
+
+        String[] questionAndAnswer = {"6",question,"Can you change this verbs form into its negative concord?" ,answer};
+
+        return questionAndAnswer;
     }
 
     public String findPositiveConcord(String negativeConcord){
@@ -73,29 +78,5 @@ public class VerbSCModifier {
         }
         return null;
     }
-
-    public void runExercise(){
-        int points = 0;
-        Random rand = new Random();
-        int choice = rand.nextInt(1);
-
-        while (true){
-            if (choice == 1){
-                points += changeNegativeConcord();
-            }else{
-                points += changePostiveConcord();
-            }
-
-            if(points == 2){
-                System.out.println("Well Done! You did it!");
-                break;
-            }
-            else if(points == -2){
-                System.out.println("Study your concords harder :(");
-                break;
-            }
-        }
-    }
-
 }
 

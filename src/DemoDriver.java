@@ -11,14 +11,16 @@ import java.util.List;
  */
 public class DemoDriver {
     public static void main(String[] args) throws IOException {
-        GeneratorMethod(false, false, false, false, true);
+        VerbSCModifier vscm = new VerbSCModifier();
+        GeneratorMethod(false, false, false, false, false, true);
     }
-    public static void GeneratorMethod(boolean vP, boolean nP, boolean sP, boolean sS, boolean nS) throws IOException {
+    public static void GeneratorMethod(boolean vP, boolean nP, boolean sP, boolean sS, boolean nS, boolean vS) throws IOException {
         boolean verbPlural = vP;
         boolean nounPlural = nP;
         boolean sentencePlural = sP;
         boolean sentenceScrabble = sS;
         boolean nounSingular = nS;
+        boolean verbSCModifier = vS;
 
         List<String> lines = new ArrayList<>();
 
@@ -55,6 +57,13 @@ public class DemoDriver {
             for (int i = 0; i<50; i++){
                 nsg = new NounSingularGen();
                 lines.add(nsg.nounSingularExercises());
+            }
+        }
+        if(verbSCModifier){
+            VerbSCModifier vscm;
+            for (int i = 0; i<50; i++){
+                vscm = new VerbSCModifier();
+                lines.add(vscm.verbSCModifier());
             }
         }
 
